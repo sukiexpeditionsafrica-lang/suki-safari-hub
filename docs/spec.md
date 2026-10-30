@@ -6,6 +6,7 @@ Project foundation, name, brand rule, stack, build order, and what is explicitly
 ## Step 2, cost and paperwork engine
 Inputs: destination chosen from the full catalogue in web/attractions.json (43 famous parks, zoos and attractions across Uganda, Kenya, Tanzania and Rwanda), travel dates, party size, trip length.
 Outputs: itemised estimate (park and concession fees, visa, transport allowance, accommodation allowance, guide allowance, tips), plus a paperwork checklist with official portal links and dates.
+Automatic stays: when a destination is chosen, the calculator automatically shows Budget, Mid-range and Luxury stays near that destination, with a stay area, from web/accommodations.json (43 destinations, 129 tier rows). Clicking a tier sets the accommodation field to that tier midpoint and recalculates. All stay rates are SAMPLE, NOT VERIFIED planning ranges, not lodge quotes and not live availability, and are labelled as such in the calculator and in the data file. No specific lodge is named or priced as verified until it is onboarded and confirmed.
 Rules:
 - Every fee shows source and date. Conflicting figures are flagged, never hidden.
 - Estimates are estimates, not quotes. A verified supplier quote replaces the estimate at booking.
