@@ -2,7 +2,7 @@
 
 Legal entity: Suki Expeditions Africa.
 Product name: Suki Safari Hub.
-Status: Step 1 foundation. MVP in progress, not yet published to app stores.
+Status: Flutter app shell built 2026-10-31, MVP in progress, not yet published to app stores. Main goal in all of this: make money for Suki, as a separate income stream from Suki's standard tours.
 
 ## What it is
 A hub for planning and booking East Africa safaris with clear prices, verified guides, drivers, lodges and transfers, and paperwork help across Uganda, Rwanda, Kenya and Tanzania. It does not own vehicles or lodges and does not operate tours itself. Suki Expeditions Africa tours may appear as one verified supplier, on the same terms as other verified suppliers, with ownership disclosed in the app.
@@ -30,4 +30,5 @@ A hub for planning and booking East Africa safaris with clear prices, verified g
 ## Folders
 - docs/: product spec and data model
 - web/: working cost calculator MVP (step 2)
-- lib/: Flutter app structure to be added after the web MVP is reviewed
+- flutter_app/: Flutter app shell, built 2026-10-31 with Flutter 3.47.9. Three tabs: Calculator, Places, Guides. Same 43 place catalogue and same $800 Bwindi permit as calculator v3. Run with flutter analyze and flutter test, both pass. No payments, no escrow, no app store release yet.
+- lib/: reserved at project root, real Flutter code lives in flutter_app/lib/

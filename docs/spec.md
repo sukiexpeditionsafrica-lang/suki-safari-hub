@@ -21,3 +21,5 @@ Repository: to be created under suk...-lang once installation selection is confi
 
 ## Step 5, review gate
 User reviews the web MVP before any Flutter build, app store work, payments work, or supplier onboarding.
+
+Note, 2026-10-31: Sula asked to start the Flutter shell after the two learning questions, and reminded Amber that the main goal in all of this is to make money. The shell therefore carries the money path in plain words on its Guides tab, planned only: free calculator brings travellers in, later verified bookings can earn a small traveller fee, a supplier verification subscription, and a commission lower than the 15 to 30 percent agents and OTAs usually take. No payments, escrow, or supplier onboarding is live in the shell.
