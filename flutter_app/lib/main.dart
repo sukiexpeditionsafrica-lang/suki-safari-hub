@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:supabase_flutter/supabase_flutter.dart';
+import 'supabase_config.dart';
 
 // Suki Safari Hub, by Suki Expeditions Africa.
 // MVP shell, step by step. No payments, no escrow, no permit or visa
@@ -82,6 +84,21 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _loadPlaces() async {
     try {
+      if (supabaseConfigured) {
+        await Supabase.initialize(url: supabaseUrl, publishableKey: supabaseAnonKey);
+        final rows = await Supabase.instance.client
+            .from('places')
+            .select()
+            .order('country')
+            .order('name');
+        final list = rows as List;
+        setState(() {
+          _places = list
+              .map((e) => Place.fromJson(e as Map<String, dynamic>))
+              .toList();
+        });
+        return;
+      }
       final raw = await rootBundle.loadString('assets/attractions.json');
       final list = jsonDecode(raw) as List;
       setState(() {
