@@ -3,6 +3,11 @@
 ## Step 1, done in this file set
 Project foundation, name, brand rule, stack, build order, and what is explicitly out of scope.
 
+Scalability requirement, recorded 2026-11-06 at Sula's request: build for the long term and to accommodate millions of users. That means: one Flutter codebase for Android and iOS, Supabase Postgres as the backend with Row Level Security, public read only for places and guides, no hard coded data in the app that would need a rebuild to grow, and no money held by Suki. The current Supabase Free plan and the Hostinger shared hosting for the web preview are starting points only, not millions ready as they stand. They are fine to start at zero cost, and the paid scaling steps, Supabase Pro and a CDN or dedicated web host for the front end, are taken only when real traffic and real income justify them, never before. Do not rebuild the app to chase scale before users arrive.
+
+## Web v1, live 2026-11-06
+Live at https://app.sukiexpeditionsafrica.com, subdomain created 2026-11-06 in Hostinger, empty PHP/HTML site on Premium Web Hosting, auto deployed from GitHub repo sukiexpeditionsafrica-lang/suki-safari-hub main. The first deploy showed 403 Forbidden because the repo root had no index.html; v1 fixes that with a root index.html, places.html, guides.html, calculator.html and root attractions.json and accommodations.json. What v1 does: landing page, working calculator with the v3 logic and the 43 place catalogue, Places list by country, Guides page explaining the verification system with 0 guides verified yet, and Contact. What v1 does not do: no bookings, no payments, no escrow, no live park fee feed, no real guide listings. Test passed locally before push: Bwindi, 2 travellers, 5 days at defaults, Permits $1,600, total $5,350.
+
 ## Step 2, cost and paperwork engine
 Inputs: destination chosen from the full catalogue in web/attractions.json (43 famous parks, zoos and attractions across Uganda, Kenya, Tanzania and Rwanda), travel dates, party size, trip length.
 Outputs: itemised estimate (park and concession fees, visa, transport allowance, accommodation allowance, guide allowance, tips), plus a paperwork checklist with official portal links and dates.
@@ -15,6 +20,7 @@ Rules:
 ## Step 3, verified guide profiles
 Fields: name, licence number, issuing registry, languages, specialisms, regions, vehicle type, day rate range, calendar, reviews attached to the guide (not only the company), verification badge status.
 Badge levels: self declared, peer reviewed, registry verified. Only registry verified shows the verified badge.
+Verification system, defined 2026-11-05 in docs/guide-verification-system.md, with per country fields in docs/guide-profiles.md and prepared SQL in docs/supabase-guides-verification-v2.sql, not yet run in Supabase: Kenya TRA portal check, Uganda UTB operator check, Tanzania MNRT certificate plus current year identity card, Rwanda RDB TOL plus police clearance and medical certificate dates. Association membership alone never earns the badge, and ID or licence numbers are check inputs, not public display fields.
 
 ## Step 4, GitHub
 Repository: to be created under suk...-lang once installation selection is confirmed and access is verified. Do not push until access is verified with a read tool.

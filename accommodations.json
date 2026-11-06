@@ -1,0 +1,1335 @@
+[
+  {
+    "country": "Uganda",
+    "destination": "Bwindi Impenetrable National Park",
+    "type": "National park",
+    "stay_area": "Buhoma, Ruhija, Rushaga and Nkuringo sectors",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Kibale National Park",
+    "type": "National park",
+    "stay_area": "Fort Portal and Kibale forest edge",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Queen Elizabeth National Park",
+    "type": "National park",
+    "stay_area": "Mweya, Ishasha and Kasese",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Murchison Falls National Park",
+    "type": "National park",
+    "stay_area": "Paraa, Pakwach and Masindi",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Kidepo Valley National Park",
+    "type": "National park",
+    "stay_area": "Kaabong and Karamoja",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Mgahinga Gorilla National Park",
+    "type": "National park",
+    "stay_area": "Kisoro and Mgahinga sectors",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Lake Mburo National Park",
+    "type": "National park",
+    "stay_area": "Mbarara road and Lake Mburo area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Rwenzori Mountains National Park",
+    "type": "National park",
+    "stay_area": "Kasese",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Semuliki National Park",
+    "type": "National park",
+    "stay_area": "Bundibugyo",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Mount Elgon National Park",
+    "type": "National park",
+    "stay_area": "Mbale and Sipi",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Lake Bunyonyi",
+    "type": "Tourist attraction",
+    "stay_area": "Kabale and Lake Bunyonyi shore",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Jinja and the Source of the Nile",
+    "type": "Tourist attraction",
+    "stay_area": "Jinja town and Nile shore",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Sipi Falls",
+    "type": "Tourist attraction",
+    "stay_area": "Sipi and Kapchorwa",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Uganda Wildlife Conservation Education Centre, Entebbe Zoo",
+    "type": "Zoo",
+    "stay_area": "Entebbe",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Uganda",
+    "destination": "Kampala City and Kasubi Tombs",
+    "type": "Tourist attraction",
+    "stay_area": "Kampala",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Bwindi planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 30,
+        "sample_to_usd": 100,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 100,
+        "sample_to_usd": 350,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 350,
+        "sample_to_usd": 1200,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Maasai Mara National Reserve",
+    "type": "National park",
+    "stay_area": "Talek, Sekenani and Mara North conservancies",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Amboseli National Park",
+    "type": "National park",
+    "stay_area": "Kimana and Amboseli area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Tsavo East National Park",
+    "type": "National park",
+    "stay_area": "Voi and Tsavo East gates",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Tsavo West National Park",
+    "type": "National park",
+    "stay_area": "Voi and Tsavo West gates",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Lake Nakuru National Park",
+    "type": "National park",
+    "stay_area": "Nakuru town and lake shore",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Samburu National Reserve",
+    "type": "National park",
+    "stay_area": "Samburu and Ewaso Nyiro area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Nairobi National Park",
+    "type": "National park",
+    "stay_area": "Nairobi and Langata",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Hell's Gate National Park",
+    "type": "National park",
+    "stay_area": "Naivasha",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Mount Kenya National Park",
+    "type": "National park",
+    "stay_area": "Nanyuki and Mount Kenya area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Diani Beach",
+    "type": "Tourist attraction",
+    "stay_area": "Diani Beach and Ukunda",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Lamu Old Town",
+    "type": "Tourist attraction",
+    "stay_area": "Lamu Island",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "Nairobi Animal Orphanage and Giraffe Centre",
+    "type": "Zoo",
+    "stay_area": "Nairobi, Langata",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Kenya",
+    "destination": "David Sheldrick Wildlife Trust, Nairobi",
+    "type": "Zoo",
+    "stay_area": "Nairobi, Langata",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Maasai Mara planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 80,
+        "sample_to_usd": 150,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 200,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1000,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Serengeti National Park",
+    "type": "National park",
+    "stay_area": "Seronera, Grumeti and Northern Serengeti",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Ngorongoro Crater and Conservation Area",
+    "type": "National park",
+    "stay_area": "Ngorongoro Crater rim and Karatu",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Tarangire National Park",
+    "type": "National park",
+    "stay_area": "Tarangire area and Manyara region",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Lake Manyara National Park",
+    "type": "National park",
+    "stay_area": "Mto wa Mbu and Lake Manyara area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Kilimanjaro National Park",
+    "type": "National park",
+    "stay_area": "Moshi and Marangu routes",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Nyerere National Park, formerly Selous",
+    "type": "National park",
+    "stay_area": "Selous and Rufiji area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Ruaha National Park",
+    "type": "National park",
+    "stay_area": "Iringa and Ruaha area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Arusha National Park",
+    "type": "National park",
+    "stay_area": "Arusha town and Momella area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Zanzibar Beaches",
+    "type": "Tourist attraction",
+    "stay_area": "Nungwi and Paje",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Tanzania",
+    "destination": "Stone Town, Zanzibar",
+    "type": "Tourist attraction",
+    "stay_area": "Stone Town",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Serengeti planning guides, October 2026, used as a country sample",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 100,
+        "sample_to_usd": 200,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 230,
+        "sample_to_usd": 800,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 600,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Rwanda",
+    "destination": "Volcanoes National Park",
+    "type": "National park",
+    "stay_area": "Musanze and Kinigi",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Planning sample only, no verified lodge rate yet",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 50,
+        "sample_to_usd": 120,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 150,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Rwanda",
+    "destination": "Akagera National Park",
+    "type": "National park",
+    "stay_area": "Eastern Rwanda and Akagera area",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Planning sample only, no verified lodge rate yet",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 50,
+        "sample_to_usd": 120,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 150,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Rwanda",
+    "destination": "Nyungwe Forest National Park",
+    "type": "National park",
+    "stay_area": "Nyungwe forest edge",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Planning sample only, no verified lodge rate yet",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 50,
+        "sample_to_usd": 120,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 150,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Rwanda",
+    "destination": "Lake Kivu",
+    "type": "Tourist attraction",
+    "stay_area": "Gisenyi and Kibuye",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Planning sample only, no verified lodge rate yet",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 50,
+        "sample_to_usd": 120,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 150,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  },
+  {
+    "country": "Rwanda",
+    "destination": "Kigali Genocide Memorial",
+    "type": "Tourist attraction",
+    "stay_area": "Kigali",
+    "status": "SAMPLE, NOT VERIFIED. Planning range only, not a lodge quote. Confirm the live rate, board basis and inclusions with the lodge before booking.",
+    "sample_source": "Planning sample only, no verified lodge rate yet",
+    "tiers": [
+      {
+        "tier": "Budget",
+        "sample_from_usd": 50,
+        "sample_to_usd": 120,
+        "basis": "per person per night",
+        "typical": "Basic guesthouse, camp or banda. Simple rooms, shared facilities in some cases, meals often separate."
+      },
+      {
+        "tier": "Mid-range",
+        "sample_from_usd": 150,
+        "sample_to_usd": 400,
+        "basis": "per person per night",
+        "typical": "Comfortable lodge or tented camp. Private rooms, usually full board, game drives often included or added separately."
+      },
+      {
+        "tier": "Luxury",
+        "sample_from_usd": 500,
+        "sample_to_usd": 1500,
+        "basis": "per person per night",
+        "typical": "High end lodge or tented camp. Private suites or tents, full board, guided activities and premium service."
+      }
+    ]
+  }
+]

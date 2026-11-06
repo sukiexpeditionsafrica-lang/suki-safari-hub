@@ -2,7 +2,10 @@
 
 Legal entity: Suki Expeditions Africa.
 Product name: Suki Safari Hub.
-Status: Flutter app shell built 2026-10-31, MVP in progress, not yet published to app stores. Main goal in all of this: make money for Suki, as a separate income stream from Suki's standard tours.
+Status: Web v1 live at https://app.sukiexpeditionsafrica.com from 2026-11-06, on Hostinger Premium Web Hosting, auto deployed from GitHub main. Flutter app shell built 2026-10-31, MVP in progress, not yet published to app stores. Main goal in all of this: make money for Suki, as a separate income stream from Suki's standard tours.
+
+## Web v1, live 2026-11-06
+Root index.html is the landing page and calculator, with Places (places.html, all 43 places by country) and Guides (guides.html, verification system, 0 guides verified yet). The calculator is the tested v3 logic: Bwindi and Mgahinga gorilla permit $800 per person for foreign non residents, Rwanda Volcanoes $1,500, tiered sample stays labelled SAMPLE, NOT VERIFIED, paperwork checklist, estimates not quotes, recheck official portals. Test: Bwindi, 2 travellers, 5 days at defaults gives Permits $1,600, total estimate $5,350. No bookings, no payments and no escrow are live in v1. No keys or secrets are in the code.
 
 ## What it is
 A hub for planning and booking East Africa safaris with clear prices, verified guides, drivers, lodges and transfers, and paperwork help across Uganda, Rwanda, Kenya and Tanzania. It does not own vehicles or lodges and does not operate tours itself. Suki Expeditions Africa tours may appear as one verified supplier, on the same terms as other verified suppliers, with ownership disclosed in the app.
