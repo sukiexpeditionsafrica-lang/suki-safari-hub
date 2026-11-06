@@ -5,6 +5,19 @@
 header{background:#1d4d2b;color:#fff;padding:20px 16px;margin:0 -16px 20px}
 header a{color:#ffe9a8}
 nav a{margin-right:14px;color:#1d4d2b;font-weight:700}
+*,*::before,*::after{box-sizing:border-box}
+html,body{overflow-x:clip}
+img,video{max-width:100%;height:auto}
+a{overflow-wrap:anywhere}
+h1{font-size:clamp(1.6rem,6vw,2.2rem)}
+nav{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+nav a{margin-right:0;color:#1d4d2b;font-weight:700;padding:10px 2px;min-height:44px;display:inline-flex;align-items:center}
+input,select{max-width:100%}
+button{min-height:44px}
+.card{overflow-x:auto}
+table td:last-child{white-space:nowrap}
+footer{overflow-wrap:anywhere}
+@media (max-width:600px){body{padding:0 12px 32px}header{margin:0 -12px 16px;padding:16px 12px}button{width:100%}.stay button{width:100%}h2{font-size:1.25rem}}
 h1{color:#fff;margin:0 0 6px}h2{color:#7a5a12}h3{color:#1d4d2b}
 label{display:block;margin:12px 0 4px;font-weight:600}
 input,select{width:100%;padding:10px;font-size:16px;box-sizing:border-box}
@@ -20,7 +33,7 @@ footer{margin-top:32px;border-top:1px solid #ddd;padding-top:16px;color:#555}
 <body>
 <header><h1>Suki Safari Hub</h1><p>Plan an East Africa safari with clear prices, verified guides and paperwork help. By Suki Expeditions Africa, Kampala, Uganda.</p><p><span class="badge">Web v1, test version</span> Uganda, Kenya, Tanzania and Rwanda. No bookings and no payments are live yet.</p></header>
 <nav><a href="index.html">Home and Calculator</a><a href="places.html">Places</a><a href="guides.html">Guides</a><a href="calculator.html">Calculator</a><a href="#contact">Contact</a></nav>
-<p class="note"><strong>Version 1, 6 November 2026.</strong> The calculator below is the same tested calculator as Version 3, with the Bwindi permit at $800. Try Bwindi Impenetrable National Park, 2 travellers: the Permits row should show $1,600.</p>
+<p class="note"><strong>Version 1.1, 6 November 2026. Mobile responsive.</strong> The calculator below is the same tested calculator as Version 3, with the Bwindi permit at $800. Try Bwindi Impenetrable National Park, 2 travellers: the Permits row should show $1,600.</p>
 <h2>What this site does</h2>
 <ul><li><strong>Calculator:</strong> build a cost estimate for a trip, with permits, park fees, stays, guide and vehicle, transport and a guide tips allowance.</li><li><strong>Places:</strong> all 43 famous parks, zoos and attractions in our catalogue, by country, with what each place is known for and its fee note.</li><li><strong>Guides:</strong> how we check guides, what the verified badge means, and why no guide is shown as verified yet.</li></ul>
 <p>Estimates are estimates, not quotes. Fees change, so recheck park, visa and permit fees on official portals before booking: KWS, TANAPA, NCAA, UWA, RDB and immigration.</p>
