@@ -40,10 +40,26 @@ footer{margin-top:32px;border-top:1px solid #ddd;padding-top:16px;color:#555}
 .choice input{width:auto;margin-right:8px}
 #expMatches button{margin:6px 6px 0 0;width:auto}
 @media (max-width:600px){.stepnav{flex-direction:column}.stepnav button{width:100%}}
+
+.hero{position:relative;border-radius:12px;overflow:hidden;margin:0 -16px 20px;min-height:340px;background:#1d4d2b}
+.hero img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.hero .hero-text{position:relative;z-index:1;padding:48px 20px 40px;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,.55))}
+.hero h1{color:#fff;font-size:clamp(2rem,8vw,3rem);line-height:1.1;margin:0 0 10px}
+.hero p{font-size:1.1rem;margin:0 0 18px;max-width:560px}
+.hero .btn{display:inline-block;background:#7a5a12;color:#fff;padding:12px 20px;border-radius:6px;font-weight:700;margin:4px 8px 4px 0;min-height:44px}
+.hero .btn.alt{background:#fff;color:#1d4d2b}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:16px}
+.dest-card{border:1px solid #ddd;border-radius:10px;overflow:hidden}
+.dest-card img{width:100%;height:180px;object-fit:cover;display:block}
+.dest-card .card-body{padding:12px}
+.dest-card h3{margin:0 0 4px;color:#1d4d2b}
+.dest-card p{margin:0 0 10px}
+.dest-photo{width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:10px;display:block}
+.credit{font-size:.85rem;color:#555;margin-top:6px}
+.btn{display:inline-block;background:#7a5a12;color:#fff;padding:12px 20px;border-radius:6px;font-weight:700;margin:8px 8px 8px 0;min-height:44px}
 </style></head>
-<body>
-<header><h1>Suki Safari Hub</h1><p>Plan an East Africa safari with clear prices, verified guides and paperwork help. By Suki Expeditions Africa, Kampala, Uganda.</p><p>Uganda, Kenya, Tanzania and Rwanda.</p>
-<p><a class="btn" href="places.html">Explore Destinations</a> <a class="btn btn-gold" href="calculator.html">Plan Your Safari</a></p></header>
+<body><section class="hero"><img src="images/hero-elephant-herd.jpg" alt="Elephant herd walking towards the camera in East Africa"><div class="hero-text"><h1>Discover Africa. Experience the Extraordinary.</h1><p>Plan an East Africa safari with clear prices, verified guides and paperwork help.</p><a class="btn" href="places.html">Explore Destinations</a><a class="btn alt" href="calculator.html">Plan Your Safari</a></div></section><p class="credit">Photo: Suki Expeditions Africa</p>
+
 <nav><a href="index.html">Home</a><a href="places.html">Destinations</a><a href="guides.html">Our Guides</a><a href="calculator.html">Plan Your Safari</a><a href="#contact">Contact Us</a></nav>
 <p class="note">The Bwindi gorilla permit is $800 per person for foreign non-residents.</p>
 <h2>What this site does</h2>
