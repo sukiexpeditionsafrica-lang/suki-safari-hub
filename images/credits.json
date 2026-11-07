@@ -1,0 +1,382 @@
+{
+ "kidepo-valley-national-park": {
+  "title": "Kidepo plains",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kidepo_plains.jpg",
+  "landing_url": "https://commons.wikimedia.org/w/index.php?curid=90565649",
+  "creator": "Vincent Mugaba",
+  "query": "Kidepo Valley National Park Uganda savanna",
+  "place_matched": true
+ },
+ "mgahinga-gorilla-national-park": {
+  "title": "Mountain Gorilla",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/8101/8454388665_0f9a303fda_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/77742560@N06/8454388665",
+  "creator": "shankar s.",
+  "query": "Mgahinga Gorilla National Park Uganda volcano",
+  "place_matched": true
+ },
+ "lake-mburo-national-park": {
+  "title": "Lake Mburo national park Uganda",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/2615/3804966228_1550e5c7db_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/59367690@N00/3804966228",
+  "creator": "neiljs",
+  "query": "Lake Mburo National Park Uganda zebra",
+  "place_matched": true
+ },
+ "rwenzori-mountains-national-park": {
+  "title": "DSC_0521",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/1321/1203818712_2dfc0d72ef_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/50169083@N00/1203818712",
+  "creator": "The Dilly Lama",
+  "query": "Rwenzori Mountains Uganda Mountains of the Moon",
+  "place_matched": true
+ },
+ "semuliki-national-park": {
+  "title": "Semuliki forest Boardwalk",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Semuliki_forest_Boardwalk.jpg",
+  "landing_url": "https://commons.wikimedia.org/w/index.php?curid=195715017",
+  "creator": "Pearl Aketch",
+  "query": "Semuliki National Park Uganda rainforest",
+  "place_matched": true
+ },
+ "mount-elgon-national-park": {
+  "title": "Smallest Fall of Sipi",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Smallest_Fall_of_Sipi.jpg",
+  "landing_url": "https://commons.wikimedia.org/w/index.php?curid=169941835",
+  "creator": "Timothy Akolamazima",
+  "query": "Mount Elgon Uganda waterfall hiking",
+  "place_matched": false
+ },
+ "sipi-falls": {
+  "title": "Sipi Falls, Mt Elgon, Uganda",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "source_url": "https://live.staticflickr.com/65535/52130728741_40843c540c_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/64607715@N05/52130728741",
+  "creator": "Rod Waddington",
+  "query": "Sipi Falls Uganda waterfall",
+  "place_matched": true
+ },
+ "uganda-wildlife-conservation-education-centre-entebbe-zoo": {
+  "title": "Entebbe airport monkey Uganda",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/2629/3805099636_1feea68004_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/59367690@N00/3805099636",
+  "creator": "neiljs",
+  "query": "Entebbe Zoo Uganda wildlife",
+  "place_matched": true
+ },
+ "kampala-city-and-kasubi-tombs": {
+  "title": "Kampala - vista parcial 1",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/2747/4105888027_130edb5a45_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/18115835@N00/4105888027",
+  "creator": "Leandro's World Tour",
+  "query": "Kampala Uganda city",
+  "place_matched": true
+ },
+ "maasai-mara-national-reserve": {
+  "title": "Safari in The Maasai Mara",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/850/43837384641_61904a79c0_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/21186555@N07/43837384641",
+  "creator": "Ray in Manila",
+  "query": "Maasai Mara National Reserve wildebeest migration Kenya",
+  "place_matched": true
+ },
+ "amboseli-national-park": {
+  "title": "African Sunrise, Amboseli National Park",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/1877/30385097358_6728a49544_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/21186555@N07/30385097358",
+  "creator": "Ray in Manila",
+  "query": "Amboseli National Park elephants Kilimanjaro Kenya",
+  "place_matched": true
+ },
+ "tsavo-east-national-park": {
+  "title": "Majestic red elephant of Tsavo East",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/5202/5232098119_824c9ff585_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/56796376@N00/5232098119",
+  "creator": "mckaysavage",
+  "query": "Tsavo East National Park red elephants Kenya",
+  "place_matched": true
+ },
+ "tsavo-west-national-park": {
+  "title": "Grants Zebra, Tsavo West National Park, Kenya",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/65535/52509647494_8dbe882d58_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/21186555@N07/52509647494",
+  "creator": ". Ray in Manila",
+  "query": "Tsavo West National Park Mzima Springs Kenya",
+  "place_matched": true
+ },
+ "lake-nakuru-national-park": {
+  "title": "Lots of flamingos 3",
+  "license": "by-nd",
+  "license_url": "https://creativecommons.org/licenses/by-nd/2.0/",
+  "source_url": "https://live.staticflickr.com/1304/1151533427_20338f7fb2_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/8070463@N03/1151533427",
+  "creator": "Tambako the Jaguar",
+  "query": "Lake Nakuru flamingos Kenya",
+  "place_matched": true
+ },
+ "samburu-national-reserve": {
+  "title": "Struthio molybdophanes, female, Samburu National Reserve, Kenya",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Struthio_molybdophanes%2C_female%2C_Samburu_National_Reserve%2C_Kenya.jpg",
+  "landing_url": "https://commons.wikimedia.org/w/index.php?curid=30544396",
+  "creator": "ninara",
+  "query": "Samburu National Reserve Kenya",
+  "place_matched": true
+ },
+ "nairobi-national-park": {
+  "title": "2015_05_17_Nairobi_National _Park_RESIZED_0026",
+  "license": "pdm",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "source_url": "https://live.staticflickr.com/642/20731580660_843b0f4f6a_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/132740829@N02/20731580660",
+  "creator": "makeitkenya",
+  "query": "Nairobi National Park Kenya wildlife skyline",
+  "place_matched": true
+ },
+ "hell-s-gate-national-park": {
+  "title": "Kenya, Hell's Gate",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/4806/44378154980_b4378d2122_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/150102727@N06/44378154980",
+  "creator": "Ninara31",
+  "query": "Hell's Gate National Park Kenya gorge",
+  "place_matched": true
+ },
+ "mount-kenya-national-park": {
+  "title": "Mount Kenya National Park, Helichrysum chionoides",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mount_Kenya_National_Park%2C_Helichrysum_chionoides.jpg",
+  "landing_url": "https://commons.wikimedia.org/w/index.php?curid=167572942",
+  "creator": "Nina R",
+  "query": "Mount Kenya National Park",
+  "place_matched": true
+ },
+ "diani-beach": {
+  "title": "Diani beach white sands",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Diani_beach_white_sands.jpg",
+  "landing_url": "https://commons.wikimedia.org/w/index.php?curid=92669553",
+  "creator": "Mekami",
+  "query": "Diani Beach Kenya white sand",
+  "place_matched": true
+ },
+ "nairobi-animal-orphanage-and-giraffe-centre": {
+  "title": "Feeding a giraffe - Giraffe Centre",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/2738/4519264665_38646b59c5_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/8721758@N06/4519264665",
+  "creator": "Jorge Lascar",
+  "query": "Giraffe Centre Nairobi Kenya giraffe feeding",
+  "place_matched": true
+ },
+ "david-sheldrick-wildlife-trust-nairobi": {
+  "title": "Sheldrick Wildlife Trust Orphanage",
+  "license": "by-nd",
+  "license_url": "https://creativecommons.org/licenses/by-nd/2.0/",
+  "source_url": "https://live.staticflickr.com/5015/5513285078_b47ea9594e_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/82733598@N00/5513285078",
+  "creator": "Chrissy Olson",
+  "query": "David Sheldrick elephant orphanage Nairobi baby elephant",
+  "place_matched": true
+ },
+ "serengeti-national-park": {
+  "title": "Part of the migration",
+  "license": "by-nd",
+  "license_url": "https://creativecommons.org/licenses/by-nd/2.0/",
+  "source_url": "https://live.staticflickr.com/2845/11414730224_dd9b61cf5c_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/41098896@N00/11414730224",
+  "creator": "mcoughlin",
+  "query": "Serengeti National Park wildebeest migration Tanzania",
+  "place_matched": true
+ },
+ "ngorongoro-crater-and-conservation-area": {
+  "title": "The Ngorongoro Crater, Tanzania",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/2545/4085295155_915020311d_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/28346507@N07/4085295155",
+  "creator": "epcp",
+  "query": "Ngorongoro Crater Tanzania",
+  "place_matched": true
+ },
+ "tarangire-national-park": {
+  "title": "Giants of Tarangire National Park",
+  "license": "by-nd",
+  "license_url": "https://creativecommons.org/licenses/by-nd/2.0/",
+  "source_url": "https://live.staticflickr.com/7332/10587088016_598107e90f_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/40202709@N05/10587088016",
+  "creator": "Soaring Flamingo - Safari & Trekking in TZ",
+  "query": "Tarangire National Park baobab elephants Tanzania",
+  "place_matched": true
+ },
+ "lake-manyara-national-park": {
+  "title": "Pink, White and Blue",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/2546/3942120542_ce104cf744_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/46888841@N00/3942120542",
+  "creator": "t3rmin4t0r",
+  "query": "Lake Manyara flamingos Tanzania",
+  "place_matched": true
+ },
+ "kilimanjaro-national-park": {
+  "title": "Kibo Summit, Mount Kilimanjaro, Tanzania",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/1852/30819102678_4353f48685_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/21186555@N07/30819102678",
+  "creator": "Ray in Manila",
+  "query": "Mount Kilimanjaro Tanzania",
+  "place_matched": true
+ },
+ "ruaha-national-park": {
+  "title": "African Bush Elephant: Loxodonta africana",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "source_url": "https://live.staticflickr.com/5157/14180474357_ea637c634b_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/37241348@N08/14180474357",
+  "creator": "Pius Mahimbi",
+  "query": "Ruaha National Park Tanzania elephants",
+  "place_matched": true
+ },
+ "zanzibar-beaches": {
+  "title": "Nungwi, Zanzibar",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "source_url": "https://live.staticflickr.com/2615/3990744523_083ea317b6_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/8830859@N04/3990744523",
+  "creator": "Woodlouse",
+  "query": "Zanzibar beach Nungwi Tanzania",
+  "place_matched": true
+ },
+ "stone-town-zanzibar": {
+  "title": "Dhow Sunset. Stone Town, Zanzibar, Tanzania.",
+  "license": "by-nd",
+  "license_url": "https://creativecommons.org/licenses/by-nd/2.0/",
+  "source_url": "https://live.staticflickr.com/65535/48017945831_7d5d26f18f_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/87532213@N03/48017945831",
+  "creator": "Fl\u00e2neurFloyd",
+  "query": "Stone Town Zanzibar Tanzania",
+  "place_matched": true
+ },
+ "volcanoes-national-park": {
+  "title": "Silverback",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "source_url": "https://live.staticflickr.com/8193/8116901236_a981ed59fc_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/43555660@N00/8116901236",
+  "creator": "Carine06",
+  "query": "Volcanoes National Park Rwanda gorilla",
+  "place_matched": true
+ },
+ "akagera-national-park": {
+  "title": "Marabou Storks in Akagera National Park in Rwanda",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/4073/5414021101_d22db58db8_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/11427889@N05/5414021101",
+  "creator": "johncooke",
+  "query": "Akagera National Park Rwanda safari",
+  "place_matched": true
+ },
+ "nyungwe-forest-national-park": {
+  "title": "Nyungwe National Park",
+  "license": "by-nd",
+  "license_url": "https://creativecommons.org/licenses/by-nd/2.0/",
+  "source_url": "https://live.staticflickr.com/8529/8619642892_2eb8aece72_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/90842932@N05/8619642892",
+  "creator": "Rwanda Government",
+  "query": "Nyungwe Forest Rwanda chimpanzee canopy",
+  "place_matched": true
+ },
+ "lake-kivu": {
+  "title": "Carl, Ali and Jane as the light dims at Lake Kivu, Rwanda",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "source_url": "https://live.staticflickr.com/226/505899487_fc82068536.jpg",
+  "landing_url": "https://www.flickr.com/photos/57446549@N00/505899487",
+  "creator": "Shiraz Chakera",
+  "query": "Lake Kivu Rwanda",
+  "place_matched": true
+ },
+ "kigali-genocide-memorial": {
+  "title": "Kigali Genocide Memorial, Rwanda",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/832/41244152514_c8f2f8c593_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/113306963@N05/41244152514",
+  "creator": "travelmag.com",
+  "query": "Kigali Genocide Memorial Rwanda",
+  "place_matched": true
+ },
+ "jinja-and-the-source-of-the-nile": {
+  "title": "White Water Rafting - The Nile (Uganda)",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/8211/8404532941_53615d0c1b_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/92460971@N07/8404532941",
+  "creator": "TheBigWorldandBeth",
+  "query": "White water rafting Nile Uganda",
+  "place_matched": true
+ },
+ "lamu-old-town": {
+  "title": "Lamu door",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/17/20272807_c2bcde23a3_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/86497274@N00/20272807",
+  "creator": "Giustino",
+  "query": "Lamu Island Kenya Swahili",
+  "place_matched": true
+ },
+ "nyerere-national-park-formerly-selous": {
+  "title": "Elephants, Selous Game Reserve",
+  "license": "by-sa",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Elephants%2C_Selous_Game_Reserve.jpg",
+  "landing_url": "https://commons.wikimedia.org/w/index.php?curid=20895661",
+  "creator": "Murky1",
+  "query": "Selous Tanzania elephants",
+  "place_matched": true
+ },
+ "arusha-national-park": {
+  "title": "Mount Meru at Sunset",
+  "license": "by",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_url": "https://live.staticflickr.com/3947/15569955287_940fbe7ac0_b.jpg",
+  "landing_url": "https://www.flickr.com/photos/92082510@N04/15569955287",
+  "creator": "*rboed*",
+  "query": "Mount Meru Arusha Tanzania",
+  "place_matched": true
+ }
+}
