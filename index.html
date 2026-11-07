@@ -29,13 +29,14 @@ button{margin-top:16px;padding:12px 18px;font-size:16px;background:#7a5a12;color
 table{width:100%;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid #eee}td:last-child{text-align:right}
 footer{margin-top:32px;border-top:1px solid #ddd;padding-top:16px;color:#555}
 .badge{display:inline-block;background:#1d4d2b;color:#fff;padding:2px 10px;border-radius:20px;font-size:14px}
-</style></head>
+.btn{display:inline-block;background:#1d4d2b;color:#fff!important;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700;margin:6px 8px 0 0;min-height:44px;line-height:1.2}.btn-gold{background:#7a5a12;color:#fff!important}</style></head>
 <body>
-<header><h1>Suki Safari Hub</h1><p>Plan an East Africa safari with clear prices, verified guides and paperwork help. By Suki Expeditions Africa, Kampala, Uganda.</p><p><span class="badge">Web v1, test version</span> Uganda, Kenya, Tanzania and Rwanda. No bookings and no payments are live yet.</p></header>
-<nav><a href="index.html">Home and Calculator</a><a href="places.html">Places</a><a href="guides.html">Guides</a><a href="calculator.html">Calculator</a><a href="#contact">Contact</a></nav>
-<p class="note"><strong>Version 1.1, 6 November 2026. Mobile responsive.</strong> The calculator below is the same tested calculator as Version 3, with the Bwindi permit at $800. Try Bwindi Impenetrable National Park, 2 travellers: the Permits row should show $1,600.</p>
+<header><h1>Suki Safari Hub</h1><p>Plan an East Africa safari with clear prices, verified guides and paperwork help. By Suki Expeditions Africa, Kampala, Uganda.</p><p>Uganda, Kenya, Tanzania and Rwanda.</p>
+<p><a class="btn" href="places.html">Explore Destinations</a> <a class="btn btn-gold" href="calculator.html">Plan Your Safari</a></p></header>
+<nav><a href="index.html">Home</a><a href="places.html">Destinations</a><a href="guides.html">Our Guides</a><a href="calculator.html">Plan Your Safari</a><a href="#contact">Contact Us</a></nav>
+<p class="note">The Bwindi gorilla permit is $800 per person for foreign non-residents.</p>
 <h2>What this site does</h2>
-<ul><li><strong>Calculator:</strong> build a cost estimate for a trip, with permits, park fees, stays, guide and vehicle, transport and a guide tips allowance.</li><li><strong>Places:</strong> all 43 famous parks, zoos and attractions in our catalogue, by country, with what each place is known for and its fee note.</li><li><strong>Guides:</strong> how we check guides, what the verified badge means, and why no guide is shown as verified yet.</li></ul>
+<ul><li><strong>Calculator:</strong> build a cost estimate for a trip, with permits, park fees, stays, guide and vehicle, transport and a guide tips allowance.</li><li><strong>Places:</strong> all 43 famous parks, zoos and attractions in our catalogue, by country, with what each place is known for and its fee note.</li><li><strong>Guides:</strong> how we check guides, what the verified badge means, and how guides are added one at a time as their checks are completed.</li></ul>
 <p>Estimates are estimates, not quotes. Fees change, so recheck park, visa and permit fees on official portals before booking: KWS, TANAPA, NCAA, UWA, RDB and immigration.</p>
 <h2 id="calculator">Safari cost and paperwork calculator</h2>
 <div class="warn">Fees are from October 2026 research and are flagged where sources conflict. Recheck park, visa and permit fees on official portals before booking. For parks and attractions without a fixed fee shown, edit the park fee field to the official figure.</div>
@@ -95,6 +96,7 @@ footer{margin-top:32px;border-top:1px solid #ddd;padding-top:16px;color:#555}
 <button onclick="calc()">Calculate estimate</button>
 <div class="card" id="out" style="display:none"><h2>Estimate</h2><table id="rows"></table>
 <p id="paper"></p><p><em>Tips allowance used here: $25 per person per day for guides, within the $20 to $30 range in the research. Lodge staff tips are not included.</em></p></div>
+<div class="card" id="quote"><h2>Request this estimate as a quote</h2><p>Send this estimate to Suki Expeditions Africa and we will reply with a personalised quotation. This is an enquiry, not a booking, and no payment is taken here.</p><p><a class="btn" id="waQuote" href="#" onclick="return quoteFirst(event)">Request on WhatsApp</a><a class="btn btn-gold" id="emailQuote" href="#" onclick="return quoteFirst(event)">Request by email</a></p><p id="quoteNote">Calculate an estimate first, then your choices will be added to your message.</p></div>
 <h2>Full catalogue on this site</h2>
 <p>43 famous national parks, zoos and tourist attractions across Uganda, Kenya, Tanzania and Rwanda. See the full list on the <a href="places.html">Places page</a>.</p>
 <h3>Uganda (15)</h3><ul>
@@ -168,6 +170,35 @@ function renderStays(){
  }).join('');
 }
 document.getElementById('exp').addEventListener('change',renderStays);
+
+var lastQuote=null;
+function quoteText(){
+ var q=lastQuote;
+ return 'Hello Suki Expeditions Africa, please send me a personalised quotation for this safari estimate from Suki Safari Hub.\n'
+ +'Destination: '+q.dest+'\nTravellers: '+q.people+'\nDays: '+q.days
+ +'\nPark or entry fee per person per day: $'+q.park
+ +'\nAccommodation per person per night: $'+q.stay
+ +'\nGuide and vehicle per day: $'+q.guide
+ +'\nTransport total: $'+q.transport
+ +'\nPermits: $'+q.permitTotal.toLocaleString()+'\nPark or entry fees: $'+q.parkTotal.toLocaleString()
+ +'\nAccommodation: $'+q.stayTotal.toLocaleString()+'\nGuide and vehicle: $'+q.guideTotal.toLocaleString()
+ +'\nTransport: $'+q.transport.toLocaleString()+'\nGuide tips allowance: $'+q.tipTotal.toLocaleString()
+ +'\nTotal estimate: $'+q.total.toLocaleString()+'\nPer person: $'+q.perPerson.toLocaleString()
+ +'\nThis is an enquiry, not a booking.';
+}
+function updateQuote(){
+ var wa=document.getElementById('waQuote'), em=document.getElementById('emailQuote'), note=document.getElementById('quoteNote');
+ if(!wa||!em) return;
+ if(!lastQuote){ if(note) note.textContent='Calculate an estimate first, then your choices will be added to your message.'; return; }
+ var text=quoteText();
+ wa.href='https://wa.me/256773036247?text='+encodeURIComponent(text);
+ em.href='mailto:info@sukiexpeditionsafrica.com?subject='+encodeURIComponent('Safari quote request, Suki Safari Hub')+'&body='+encodeURIComponent(text);
+ if(note) note.textContent='Your estimate is ready to send. Your choices are included in the message.';
+}
+function quoteFirst(e){
+ if(!lastQuote){ e.preventDefault(); var note=document.getElementById('quoteNote'); if(note) note.textContent='Please calculate an estimate first, then send it as a quote.'; return false; }
+ return true;
+}
 function calc(){
  const parts=document.getElementById('exp').value.split('|');
  const permit=+parts[0]; const country=parts[1];
@@ -179,13 +210,15 @@ function calc(){
  const transport=+document.getElementById('transport').value||0;
  const permitTotal=permit*people, parkTotal=park*days*people, stayTotal=stay*days*people, guideTotal=guide*days, tipTotal=25*days*people;
  const total=permitTotal+parkTotal+stayTotal+guideTotal+transport+tipTotal;
+ lastQuote={dest:document.getElementById('exp').options[document.getElementById('exp').selectedIndex].text,people:people,days:days,park:park,stay:stay,guide:guide,transport:transport,permitTotal:permitTotal,parkTotal:parkTotal,stayTotal:stayTotal,guideTotal:guideTotal,tipTotal:tipTotal,total:total,perPerson:people?Math.round(total/people):0};
  const visa = country==='Tanzania' ? 'Tanzania e-visa, separate from the East African Tourist Visa. The $100 East African Tourist Visa covers Kenya, Uganda and Rwanda only, not Tanzania.' : 'Check the East African Tourist Visa ($100, Kenya, Uganda and Rwanda) or the single country eTA or visa for your entry country, on the official immigration portal.';
  document.getElementById('out').style.display='block';
  document.getElementById('rows').innerHTML =
  `<tr><td>Permits</td><td>$${permitTotal.toLocaleString()}</td></tr><tr><td>Park or entry fees</td><td>$${parkTotal.toLocaleString()}</td></tr><tr><td>Accommodation</td><td>$${stayTotal.toLocaleString()}</td></tr><tr><td>Guide and vehicle</td><td>$${guideTotal.toLocaleString()}</td></tr><tr><td>Transport</td><td>$${transport.toLocaleString()}</td></tr><tr><td>Guide tips allowance</td><td>$${tipTotal.toLocaleString()}</td></tr><tr><td><strong>Total estimate</strong></td><td><strong>$${total.toLocaleString()}</strong></td></tr><tr><td>Per person</td><td>$${people?Math.round(total/people).toLocaleString():0}</td></tr>`;
  document.getElementById('paper').innerHTML = '<strong>Paperwork checklist:</strong> '+visa+' Also check yellow fever and insurance requirements, and whether your route crosses a border, which may mean a vehicle or guide change.';
+ updateQuote();
 }
 renderStays();
 </script>
-<footer id="contact"><h2>Contact</h2><p>Suki Safari Hub, by Suki Expeditions Africa, Kampala, Uganda.</p><p>Email: info@sukiexpeditionsafrica.com<br>Phone and WhatsApp: +256 773036247<br>Main website: sukiexpeditionsafrica.com</p><p>Web v1, 6 November 2026. This is a test version. No bookings and no payments are live here yet.</p></footer>
+<footer id="contact"><h2>Contact Us</h2><p>Suki Safari Hub, by Suki Expeditions Africa, Kampala, Uganda.</p><p>Email: info@sukiexpeditionsafrica.com<br>Phone and WhatsApp: +256 773036247<br>Main website: sukiexpeditionsafrica.com</p><p>Last updated 7 November 2026. Estimates are estimates, not confirmed quotes. Fees last checked October 2026; recheck official park, visa and permit fees before booking.</p></footer>
 </body></html>

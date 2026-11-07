@@ -2,7 +2,10 @@
 
 Legal entity: Suki Expeditions Africa.
 Product name: Suki Safari Hub.
-Status: Web v1 live at https://app.sukiexpeditionsafrica.com from 2026-11-06, on Hostinger Premium Web Hosting, auto deployed from GitHub main. Flutter app shell built 2026-10-31, MVP in progress, not yet published to app stores. Main goal in all of this: make money for Suki, as a separate income stream from Suki's standard tours.
+Status: Web v1.2 live at https://app.sukiexpeditionsafrica.com from 2026-11-07, on Hostinger Premium Web Hosting, auto deployed from GitHub main. Flutter app shell built 2026-10-31, MVP in progress, not yet published to app stores. Main goal in all of this: make money for Suki, as a separate income stream from Suki's standard tours.
+
+## Web v1.2, live 2026-11-07
+Customer cleanup and Plan My Safari quote button. New navigation on every page: Home, Destinations, Our Guides, Plan Your Safari, Contact Us. No test-version wording on customer pages. Guides page leads with "Your safety. Our priority." and guides are added one at a time as checks are completed; no guide is listed yet. The calculator on the home page and the standalone calculator both have a "Request this estimate as a quote" section that sends the visitor's own estimate to Suki by WhatsApp (+256 773036247) or email (info@sukiexpeditionsafrica.com); it is an enquiry, not a booking, and no payment is taken there. Calculator logic unchanged. Test: Bwindi, 2 travellers, 5 days at defaults gives Permits $1,600, total estimate $5,350.
 
 ## Web v1, live 2026-11-06
 Root index.html is the landing page and calculator, with Places (places.html, all 43 places by country) and Guides (guides.html, verification system, 0 guides verified yet). The calculator is the tested v3 logic: Bwindi and Mgahinga gorilla permit $800 per person for foreign non residents, Rwanda Volcanoes $1,500, tiered sample stays labelled SAMPLE, NOT VERIFIED, paperwork checklist, estimates not quotes, recheck official portals. Test: Bwindi, 2 travellers, 5 days at defaults gives Permits $1,600, total estimate $5,350. No bookings, no payments and no escrow are live in v1. No keys or secrets are in the code.

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Suki Safari Hub - Safari Cost Calculator (MVP)</title>
+<title>Plan Your Safari, Suki Safari Hub</title>
 <style>body{font-family:system-ui,Arial,sans-serif;max-width:820px;margin:24px auto;padding:0 16px 40px;color:#222;line-height:1.5}h1{color:#7a5a12}label{display:block;margin:12px 0 4px;font-weight:600}input,select{width:100%;padding:10px;font-size:16px;box-sizing:border-box}button{margin-top:16px;padding:12px 18px;font-size:16px;background:#7a5a12;color:#fff;border:0;cursor:pointer;border-radius:6px}.card{border:1px solid #ddd;border-radius:10px;padding:16px;margin-top:18px}.warn{background:#fff8e1;border:1px solid #e6c87a;padding:12px;border-radius:8px}.stay{border:1px solid #ddd;border-radius:10px;padding:12px;margin-top:10px}.stay button{margin-top:8px}table{width:100%;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid #eee}td:last-child{text-align:right}footer{margin-top:32px;border-top:1px solid #ddd;padding-top:16px;color:#555;overflow-wrap:anywhere}
 *,*::before,*::after{box-sizing:border-box}
 html,body{overflow-x:clip}
@@ -14,13 +14,13 @@ button{min-height:44px}
 .card{overflow-x:auto}
 table td:last-child{white-space:nowrap}
 footer{overflow-wrap:anywhere}
-@media (max-width:600px){body{padding:0 12px 32px}header{margin:0 -12px 16px;padding:16px 12px}button{width:100%}.stay button{width:100%}h2{font-size:1.25rem}}</style></head>
+@media (max-width:600px){body{padding:0 12px 32px}header{margin:0 -12px 16px;padding:16px 12px}button{width:100%}.stay button{width:100%}h2{font-size:1.25rem}}.btn{display:inline-block;background:#1d4d2b;color:#fff!important;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700;margin:6px 8px 0 0;min-height:44px;line-height:1.2}.btn-gold{background:#7a5a12;color:#fff!important}</style></head>
 <body>
-<nav><a href="index.html">Home and Calculator</a><a href="places.html">Places</a><a href="guides.html">Guides</a><a href="calculator.html">Calculator</a><a href="index.html#contact">Contact</a></nav>
-<p><strong>Web v1, 6 November 2026.</strong> Standalone calculator, same as the calculator on the home page.</p>
+<nav><a href="index.html">Home</a><a href="places.html">Destinations</a><a href="guides.html">Our Guides</a><a href="calculator.html">Plan Your Safari</a><a href="index.html#contact">Contact Us</a></nav>
+<p>Plan your East Africa safari with a clear cost estimate, then send it to us for a personalised quotation.</p>
 <h1>Suki Safari Hub</h1>
-<p style="background:#e8f5e9;border:1px solid #7a5a12;padding:10px;border-radius:8px"><strong>Version 3, 31 Oct 2026. Bwindi permit $800.</strong> 43 parks, zoos and attractions in the dropdown, plus automatic stays below the destination. If you do not see this green banner, you are looking at an old downloaded copy, please delete your old downloads and open this Version 3 file instead.</p>
-<p><strong>Safari cost and paperwork calculator, MVP step 2.</strong> By Suki Expeditions Africa. This is an estimate, not a quote and not an official fee list. The full catalogue below is also the starting catalogue for the app at large.</p>
+<p>The Bwindi gorilla permit is $800 per person for foreign non-residents. Rwanda Volcanoes is $1,500.</p>
+<p><strong>Safari cost and paperwork calculator.</strong> By Suki Expeditions Africa. This is an estimate, not a quote and not an official fee list.</p>
 <div class="warn">Fees are from the October 2026 gaps research and are flagged where sources conflict. Recheck park, visa and permit fees on official portals (KWS, TANAPA, NCAA, UWA, RDB, immigration) before booking. For parks and attractions without a fixed fee shown, edit the park fee field to the official figure.</div>
 <label>Choose a famous park, zoo or attraction</label>
 <select id="exp">
@@ -79,9 +79,10 @@ footer{overflow-wrap:anywhere}
 <label>Transport total for the group (USD, your estimate)</label><input id="transport" type="number" min="0" value="300">
 <button onclick="calc()">Calculate estimate</button>
 <div class="card" id="out" style="display:none"><h2>Estimate</h2><table id="rows"></table>
-<p id="paper"></p><p><em>Tips allowance used in this MVP: $25 per person per day for guides, within the $20 to $30 range in the research. Lodge staff tips are not included.</em></p></div>
+<p id="paper"></p><p><em>Tips allowance used here: $25 per person per day for guides, within the $20 to $30 range in the research. Lodge staff tips are not included.</em></p></div>
+<div class="card" id="quote"><h2>Request this estimate as a quote</h2><p>Send this estimate to Suki Expeditions Africa and we will reply with a personalised quotation. This is an enquiry, not a booking, and no payment is taken here.</p><p><a class="btn" id="waQuote" href="#" onclick="return quoteFirst(event)">Request on WhatsApp</a><a class="btn btn-gold" id="emailQuote" href="#" onclick="return quoteFirst(event)">Request by email</a></p><p id="quoteNote">Calculate an estimate first, then your choices will be added to your message.</p></div>
 <h2>Full catalogue in this app</h2>
-<p>43 famous national parks, zoos and tourist attractions across Uganda, Kenya, Tanzania and Rwanda. Tell me any famous place still missing and I will add it with its country, type and fee note.</p>
+<p>43 famous national parks, zoos and tourist attractions across Uganda, Kenya, Tanzania and Rwanda. If a famous place is missing from this list, please tell us and we will look at adding it.</p>
 <h3>Uganda</h3><ul>
 <li><strong>Bwindi Impenetrable National Park</strong> (National park) - Mountain gorilla trekking. Gorilla permit $800 per person for foreign non-residents, $700 for foreign residents, $600 low season April, May and November, checked 30 Oct 2026 against UWA tariff summaries, recheck UWA before quoting.</li>
 <li><strong>Kibale National Park</strong> (National park) - Chimpanzee tracking. Fee varies by activity, check UWA.</li>
@@ -152,6 +153,35 @@ function renderStays(){
  }).join('');
 }
 document.getElementById('exp').addEventListener('change',renderStays);
+
+var lastQuote=null;
+function quoteText(){
+ var q=lastQuote;
+ return 'Hello Suki Expeditions Africa, please send me a personalised quotation for this safari estimate from Suki Safari Hub.\n'
+ +'Destination: '+q.dest+'\nTravellers: '+q.people+'\nDays: '+q.days
+ +'\nPark or entry fee per person per day: $'+q.park
+ +'\nAccommodation per person per night: $'+q.stay
+ +'\nGuide and vehicle per day: $'+q.guide
+ +'\nTransport total: $'+q.transport
+ +'\nPermits: $'+q.permitTotal.toLocaleString()+'\nPark or entry fees: $'+q.parkTotal.toLocaleString()
+ +'\nAccommodation: $'+q.stayTotal.toLocaleString()+'\nGuide and vehicle: $'+q.guideTotal.toLocaleString()
+ +'\nTransport: $'+q.transport.toLocaleString()+'\nGuide tips allowance: $'+q.tipTotal.toLocaleString()
+ +'\nTotal estimate: $'+q.total.toLocaleString()+'\nPer person: $'+q.perPerson.toLocaleString()
+ +'\nThis is an enquiry, not a booking.';
+}
+function updateQuote(){
+ var wa=document.getElementById('waQuote'), em=document.getElementById('emailQuote'), note=document.getElementById('quoteNote');
+ if(!wa||!em) return;
+ if(!lastQuote){ if(note) note.textContent='Calculate an estimate first, then your choices will be added to your message.'; return; }
+ var text=quoteText();
+ wa.href='https://wa.me/256773036247?text='+encodeURIComponent(text);
+ em.href='mailto:info@sukiexpeditionsafrica.com?subject='+encodeURIComponent('Safari quote request, Suki Safari Hub')+'&body='+encodeURIComponent(text);
+ if(note) note.textContent='Your estimate is ready to send. Your choices are included in the message.';
+}
+function quoteFirst(e){
+ if(!lastQuote){ e.preventDefault(); var note=document.getElementById('quoteNote'); if(note) note.textContent='Please calculate an estimate first, then send it as a quote.'; return false; }
+ return true;
+}
 function calc(){
  const parts=document.getElementById('exp').value.split('|');
  const permit=+parts[0]; const country=parts[1];
@@ -163,11 +193,15 @@ function calc(){
  const transport=+document.getElementById('transport').value||0;
  const permitTotal=permit*people, parkTotal=park*days*people, stayTotal=stay*days*people, guideTotal=guide*days, tipTotal=25*days*people;
  const total=permitTotal+parkTotal+stayTotal+guideTotal+transport+tipTotal;
+ lastQuote={dest:document.getElementById('exp').options[document.getElementById('exp').selectedIndex].text,people:people,days:days,park:park,stay:stay,guide:guide,transport:transport,permitTotal:permitTotal,parkTotal:parkTotal,stayTotal:stayTotal,guideTotal:guideTotal,tipTotal:tipTotal,total:total,perPerson:people?Math.round(total/people):0};
  const visa = country==='Tanzania' ? 'Tanzania e-visa, separate from the East African Tourist Visa. The $100 East African Tourist Visa covers Kenya, Uganda and Rwanda only, not Tanzania.' : 'Check the East African Tourist Visa ($100, Kenya, Uganda and Rwanda) or the single country eTA or visa for your entry country, on the official immigration portal.';
  document.getElementById('out').style.display='block';
  document.getElementById('rows').innerHTML =
  `<tr><td>Permits</td><td>$${permitTotal.toLocaleString()}</td></tr><tr><td>Park or entry fees</td><td>$${parkTotal.toLocaleString()}</td></tr><tr><td>Accommodation</td><td>$${stayTotal.toLocaleString()}</td></tr><tr><td>Guide and vehicle</td><td>$${guideTotal.toLocaleString()}</td></tr><tr><td>Transport</td><td>$${transport.toLocaleString()}</td></tr><tr><td>Guide tips allowance</td><td>$${tipTotal.toLocaleString()}</td></tr><tr><td><strong>Total estimate</strong></td><td><strong>$${total.toLocaleString()}</strong></td></tr><tr><td>Per person</td><td>$${people?Math.round(total/people).toLocaleString():0}</td></tr>`;
  document.getElementById('paper').innerHTML = '<strong>Paperwork checklist:</strong> '+visa+' Also check yellow fever and insurance requirements, and whether your route crosses a border, which may mean a vehicle or guide change.';
+ updateQuote();
 }
 renderStays();
 </script>
+<footer id="contact"><h2>Contact Us</h2><p>Suki Safari Hub, by Suki Expeditions Africa, Kampala, Uganda.</p><p>Email: info@sukiexpeditionsafrica.com<br>Phone and WhatsApp: +256 773036247<br>Main website: sukiexpeditionsafrica.com</p><p>Last updated 7 November 2026. Estimates are estimates, not confirmed quotes. Fees last checked October 2026; recheck official park, visa and permit fees before booking.</p></footer>
+</body></html>
