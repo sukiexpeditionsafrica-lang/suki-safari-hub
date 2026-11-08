@@ -4,6 +4,9 @@ Legal entity: Suki Expeditions Africa.
 Product name: Suki Safari Hub.
 Status: Web v1.3 live at https://app.sukiexpeditionsafrica.com from 2026-11-08, on Hostinger Premium Web Hosting, auto deployed from GitHub main. Web v1.4 live at https://app.sukiexpeditionsafrica.com from 2026-11-08 (visual destination pages + homepage hero; photos reached the repo via the GitHub web UI, commit 9043bdd, then the HTML shipped by snapshot push, commit 0f3f7fa9). Flutter app shell built 2026-10-31, MVP in progress, not yet published to app stores. Main goal in all of this: make money for Suki, as a separate income stream from Suki's standard tours.
 
+## Web v1.6, live 2026-11-08
+One shared calculator (calculator.js) now powers both the home page and the Plan Your Safari page: same steps, labels, defaults, maths and quote text, built into a mount point on each page, so the two routes can no longer drift apart. The $70 park fee is now labelled as an editable example, not a universal fee, with a note under the field and the chosen destination's own fee note shown. Calculator maths unchanged. Test: Bwindi, 2 travellers, 5 days at defaults gives Permits $1,600, total estimate $5,350.
+
 ## Web v1.5, live 2026-11-08
 Destination filters on the Destinations page (country and experience, with a live count), a suggested day-by-day itinerary on every destination page, and a Plan This Safari button on every destination page that opens the calculator with that destination already chosen. Calculator maths unchanged. Test: Bwindi, 2 travellers, 5 days at defaults gives Permits $1,600, total estimate $5,350.
 

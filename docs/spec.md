@@ -5,6 +5,9 @@ Project foundation, name, brand rule, stack, build order, and what is explicitly
 
 Scalability requirement, recorded 2026-11-06 at Sula's request: build for the long term and to accommodate millions of users. That means: one Flutter codebase for Android and iOS, Supabase Postgres as the backend with Row Level Security, public read only for places and guides, no hard coded data in the app that would need a rebuild to grow, and no money held by Suki. The current Supabase Free plan and the Hostinger shared hosting for the web preview are starting points only, not millions ready as they stand. They are fine to start at zero cost, and the paid scaling steps, Supabase Pro and a CDN or dedicated web host for the front end, are taken only when real traffic and real income justify them, never before. Do not rebuild the app to chase scale before users arrive.
 
+## Web v1.6, live 2026-11-08
+One shared calculator (calculator.js) now powers both the home page and the Plan Your Safari page: same steps, labels, defaults, maths and quote text, built into a mount point on each page, so the two routes can no longer drift apart. The $70 park fee is now labelled as an editable example, not a universal fee, with a note under the field and the chosen destination's own fee note shown. Calculator maths unchanged. Test: Bwindi, 2 travellers, 5 days at defaults gives Permits $1,600, total estimate $5,350.
+
 ## Web v1.5, live 2026-11-08
 Destination filters on the Destinations page (country and experience, with a live count), a suggested day-by-day itinerary on every destination page, and a Plan This Safari button on every destination page that opens the calculator with that destination already chosen. Calculator maths unchanged. Test: Bwindi, 2 travellers, 5 days at defaults gives Permits $1,600, total estimate $5,350.
 
