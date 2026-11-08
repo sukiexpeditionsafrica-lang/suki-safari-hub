@@ -44,6 +44,6 @@ A hub for planning and booking East Africa safaris with clear prices, verified g
 
 ## Folders
 - docs/: product spec and data model
-- web/: working cost calculator MVP (step 2)
+- web/: working cost calculator MVP (step 2). The old single-page calculators in web/ were retired 2026-11-08: web/index.html, web/calculator-v2.html and web/calculator-v3.html now redirect to the guided calculator at /calculator.html. web/attractions.json and web/accommodations.json remain the catalogue data.
 - flutter_app/: Flutter app shell, built 2026-10-31 with Flutter 3.47.9. Three tabs: Calculator, Places, Guides. Same 43 place catalogue and same $800 Bwindi permit as calculator v3. Run with flutter analyze and flutter test, both pass. No payments, no escrow, no app store release yet.
 - lib/: reserved at project root, real Flutter code lives in flutter_app/lib/
