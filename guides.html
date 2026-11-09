@@ -1,47 +1,91 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Our Guides, Suki Safari Hub</title><style>body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:0 16px 40px;color:#222;line-height:1.5}
-header{background:#1d4d2b;color:#fff;padding:20px 16px;margin:0 -16px 20px}
+<title>Our Guides, Suki Safari Hub</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><style>body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:0 16px 40px;color:#2b2620;line-height:1.6;background:#faf6ee}
+header{background:#1d4d2b;color:#fff;padding:24px 20px;margin:0 -16px 20px;border-radius:0 0 12px 12px}
 header a{color:#ffe9a8}
-nav a{margin-right:14px;color:#1d4d2b;font-weight:700}
 *,*::before,*::after{box-sizing:border-box}
 html,body{overflow-x:clip}
 img,video{max-width:100%;height:auto}
-a{overflow-wrap:anywhere}
-h1{font-size:clamp(1.6rem,6vw,2.2rem)}
-nav{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
-nav a{margin-right:0;color:#1d4d2b;font-weight:700;padding:10px 2px;min-height:44px;display:inline-flex;align-items:center}
+a{overflow-wrap:anywhere;color:#1d4d2b}
+h1,h2,h3{font-family:'Playfair Display',Georgia,'Times New Roman',serif;color:#1d4d2b}
+h1{font-size:clamp(1.9rem,6vw,2.6rem);line-height:1.1}
+header h1{color:#fff;margin:0 0 6px}
+header p{margin:0 0 8px}
+h2{color:#7a5a12;font-size:clamp(1.4rem,4.5vw,1.8rem);line-height:1.2;margin:28px 0 10px}
+h3{font-size:1.2rem;margin:18px 0 6px}
+nav{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;padding:6px 0 2px}
+nav a{margin-right:0;color:#1d4d2b;font-weight:700;padding:10px 2px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none}
+nav a[aria-current="page"]{color:#7a5a12;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:2px}
 input,select{max-width:100%}
 button{min-height:44px}
-.card{overflow-x:auto}
-table td:last-child{white-space:nowrap}
-footer{overflow-wrap:anywhere}
-@media (max-width:600px){body{padding:0 12px 32px}header{margin:0 -12px 16px;padding:16px 12px}button{width:100%}.stay button{width:100%}h2{font-size:1.25rem}}
-h1{color:#fff;margin:0 0 6px}h2{color:#7a5a12}h3{color:#1d4d2b}
 label{display:block;margin:12px 0 4px;font-weight:600}
 input,select{width:100%;padding:10px;font-size:16px;box-sizing:border-box}
 button{margin-top:16px;padding:12px 18px;font-size:16px;background:#7a5a12;color:#fff;border:0;cursor:pointer;border-radius:6px}
-.card{border:1px solid #ddd;border-radius:10px;padding:16px;margin-top:18px}
+.card{border:1px solid #e5dcc8;border-radius:10px;padding:16px;margin-top:18px;background:#fffdf8;overflow-x:auto}
 .warn{background:#fff8e1;border:1px solid #e6c87a;padding:12px;border-radius:8px}
 .note{background:#e8f5e9;border:1px solid #7a5a12;padding:10px;border-radius:8px}
-.stay{border:1px solid #ddd;border-radius:10px;padding:12px;margin-top:10px}
-table{width:100%;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid #eee}td:last-child{text-align:right}
-footer{margin-top:32px;border-top:1px solid #ddd;padding-top:16px;color:#555}
+.stay{border:1px solid #e5dcc8;border-radius:10px;padding:12px;margin-top:10px;background:#fffdf8}
+table{width:100%;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid #eee}td:last-child{text-align:right;white-space:nowrap}
+footer{margin-top:32px;border-top:1px solid #e5dcc8;padding-top:16px;color:#555;overflow-wrap:anywhere}
+footer h2{margin-top:8px}
 .badge{display:inline-block;background:#1d4d2b;color:#fff;padding:2px 10px;border-radius:20px;font-size:14px}
-.btn{display:inline-block;background:#1d4d2b;color:#fff!important;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700;margin:6px 8px 0 0;min-height:44px;line-height:1.2}.btn-gold{background:#7a5a12;color:#fff!important}</style></head><body>
-<header><h1>Our Guides</h1><p>Your safety. Our priority.</p><p>Trust is the point of Suki Safari Hub. A guide only shows a verified badge when the licence check for their country has been done, recorded, and is still in date.</p></header>
+.btn{display:inline-block;background:#1d4d2b;color:#fff!important;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700;margin:6px 8px 0 0;min-height:44px;line-height:1.2}
+.btn-gold{background:#7a5a12;color:#fff!important}
+.hero{position:relative;border-radius:12px;overflow:hidden;margin:8px -16px 12px;min-height:440px;background:#1d4d2b}
+.hero img{width:100%;height:100%;object-fit:cover;object-position:center 72%;position:absolute;inset:0}
+.hero .hero-text{position:relative;z-index:1;padding:56px 24px 44px;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.38),rgba(0,0,0,.60))}
+.hero h1{color:#fff;font-size:clamp(2.2rem,8vw,3.4rem);line-height:1.05;margin:0 0 12px}
+.hero p{font-size:1.1rem;margin:0 0 18px;max-width:560px}
+.hero .btn{display:inline-block;background:#7a5a12;color:#fff;padding:12px 20px;border-radius:6px;font-weight:700;margin:4px 8px 4px 0;min-height:44px;text-decoration:none}
+.hero .btn.alt{background:#fff;color:#1d4d2b!important}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:16px}
+.dest-card{background:#fffdf8;border:1px solid #e5dcc8;border-radius:10px;overflow:hidden}
+.dest-card .card-body{padding:14px}
+.dest-card h3{margin:0 0 4px}
+.dest-card p{margin:0 0 10px}
+.credit{font-size:.85rem;color:#555;margin-top:6px}
+.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:#7a5a12;font-weight:700;margin:0 0 6px}
+header .eyebrow,.hero .eyebrow{color:#ffe9a8}
+.number{font-family:'Playfair Display',Georgia,'Times New Roman',serif;color:#7a5a12;font-weight:700;margin:0 0 4px}
+.lede{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:1.25rem;line-height:1.4;color:#1d4d2b;margin:0 0 10px}
+.plain-list{margin:8px 0;padding-left:22px}
+.plain-list li{margin:6px 0}
+.country-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:14px}
+@media (max-width:600px){
+  body{padding:0 12px 32px}
+  header{margin:0 -12px 16px;padding:20px 14px}
+  .hero{margin:8px -12px 12px;min-height:380px}
+  .hero-text{padding:40px 16px 32px}
+  button{width:100%}
+  .stay button{width:100%}
+  h2{font-size:1.3rem}
+  .btn{display:block;text-align:center;margin:8px 0 0}
+  .hero .btn{display:block;text-align:center;margin:8px 0 0}
+  nav{gap:2px 12px}
+}</style></head><body>
+<header><p class="eyebrow">Suki Safari Hub · Our Guides</p><h1>Our Guides</h1><p class="lede" style="color:#fff">Your safety. Our priority.</p><p>Trust is the point of Suki Safari Hub. A guide only shows a verified badge when the licence check for their country has been done, recorded, and is still in date.</p></header>
 <nav><a href="index.html">Home</a><a href="places.html">Destinations</a><a href="guides.html">Our Guides</a><a href="calculator.html">Plan Your Safari</a><a href="#contact">Contact Us</a></nav>
 <p><a class="btn" href="calculator.html">Plan My Safari</a></p>
 <p class="note">Guides are added one at a time as their checks are completed. No guide is listed yet. This page explains the system so travellers know what the badge will mean when guides are added, with approval by Suki Expeditions Africa, one at a time, and the guide's consent.</p>
+<p class="eyebrow">Verification</p>
 <h2>Badge levels</h2>
-<ul><li><strong>Self declared:</strong> the guide says they are licensed. No check has been done. No badge.</li><li><strong>Peer reviewed:</strong> another guide or operator has vouched for them, or a review exists. Still no licence check. No badge.</li><li><strong>Registry verified:</strong> the country check below has been done and recorded, and nothing in it has expired. This is the only level that shows the verified badge.</li></ul>
+<div class="country-cards">
+<div class="card" style="margin-top:0"><h3>Self declared</h3><p>The guide says they are licensed. No check has been done. No badge.</p></div>
+<div class="card" style="margin-top:0"><h3>Peer reviewed</h3><p>Another guide or operator has vouched for them, or a review exists. Still no licence check. No badge.</p></div>
+<div class="card" style="margin-top:0"><h3>Registry verified <span class="badge">Verified</span></h3><p>The country check below has been done and recorded, and nothing in it has expired. This is the only level that shows the verified badge.</p></div>
+</div>
 <p>If a document expires, or a suspension is found, the badge comes off until a fresh check is recorded.</p>
+<p class="eyebrow">By Country</p>
 <h2>How we check, by country</h2>
-<h3>Kenya</h3><p>Tourism Regulatory Authority, TRA, tour guide licence. Checked on the public portal verify.tra.go.ke, by ID number for a guide, or file number for a company. KPSGA level is a separate professional label, not the licence itself.</p>
-<h3>Uganda</h3><p>No public individual guide portal was found. We check the Uganda Tourism Board, UTB, operator licence first, with its number, expiry and suspension position. USAGA membership is a separate label, not the licence.</p>
-<h3>Tanzania, mainland</h3><p>Ministry of Natural Resources and Tourism, MNRT, Certificate of Registration plus the current year identity card. The certificate renews every third November, the identity card expires every 31 December. Only Tanzanian citizens can be licensed as guides in Tanzania. Zanzibar is not covered by this mainland check yet.</p>
-<h3>Rwanda</h3><p>Rwanda Development Board, RDB, tourism operating licence, plus association letter, police clearance within one year and medical certificate within three months. The licence itself has no expiry date under current law.</p>
+<div class="country-cards">
+<div class="card" style="margin-top:0"><p class="eyebrow">Kenya</p><h3>Kenya</h3><p>Tourism Regulatory Authority, TRA, tour guide licence. Checked on the public portal verify.tra.go.ke, by ID number for a guide, or file number for a company. KPSGA level is a separate professional label, not the licence itself.</p></div>
+<div class="card" style="margin-top:0"><p class="eyebrow">Uganda</p><h3>Uganda</h3><p>No public individual guide portal was found. We check the Uganda Tourism Board, UTB, operator licence first, with its number, expiry and suspension position. USAGA membership is a separate label, not the licence.</p></div>
+<div class="card" style="margin-top:0"><p class="eyebrow">Tanzania</p><h3>Tanzania, mainland</h3><p>Ministry of Natural Resources and Tourism, MNRT, Certificate of Registration plus the current year identity card. The certificate renews every third November, the identity card expires every 31 December. Only Tanzanian citizens can be licensed as guides in Tanzania. Zanzibar is not covered by this mainland check yet.</p></div>
+<div class="card" style="margin-top:0"><p class="eyebrow">Rwanda</p><h3>Rwanda</h3><p>Rwanda Development Board, RDB, tourism operating licence, plus association letter, police clearance within one year and medical certificate within three months. The licence itself has no expiry date under current law.</p></div>
+</div>
+<p class="eyebrow">The Standard</p>
 <h2>What never counts as verified</h2><p>Association membership alone, park registration alone, training alone, or a certificate without its companion document in date. National ID, licence and certificate numbers are check inputs, never public display fields. The app shows the badge, the country, the registry name and the check date only.</p>
-<h2>How a guide gets added</h2><ol><li>Suki Expeditions Africa approves the guide, one at a time.</li><li>The guide gives consent to be checked and listed.</li><li>The country check is done and recorded.</li><li>Only if the check passes and is in date, the guide is listed as registry verified.</li></ol>
-<footer id="contact"><h2>Contact Us</h2><p>Suki Safari Hub, by Suki Expeditions Africa, Kampala, Uganda.</p><p>Email: info@sukiexpeditionsafrica.com<br>Phone and WhatsApp: +256 773036247<br>Main website: sukiexpeditionsafrica.com</p><p>Last updated 7 November 2026. Estimates are estimates, not confirmed quotes. Fees last checked October 2026; recheck official park, visa and permit fees before booking.</p></footer>
+<p class="eyebrow">Joining</p>
+<h2>How a guide gets added</h2><ol class="plain-list"><li>Suki Expeditions Africa approves the guide, one at a time.</li><li>The guide gives consent to be checked and listed.</li><li>The country check is done and recorded.</li><li>Only if the check passes and is in date, the guide is listed as registry verified.</li></ol>
+<footer id="contact"><h2>Contact Us</h2><p>Suki Safari Hub, by Suki Expeditions Africa, Kampala, Uganda.</p><p>Email: info@sukiexpeditionsafrica.com<br>Phone and WhatsApp: +256 773036247<br>Main website: sukiexpeditionsafrica.com</p><p>Last updated 10 November 2026. Estimates are estimates, not confirmed quotes. Fees last checked October 2026; recheck official park, visa and permit fees before booking.</p></footer>
 </body></html>

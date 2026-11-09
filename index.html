@@ -1,117 +1,141 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Suki Safari Hub, by Suki Expeditions Africa</title>
-<style>body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:0 16px 40px;color:#222;line-height:1.5}
-header{background:#1d4d2b;color:#fff;padding:20px 16px;margin:0 -16px 20px}
+<title>Suki Safari Hub, by Suki Expeditions Africa</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:0 16px 40px;color:#2b2620;line-height:1.6;background:#faf6ee}
+header{background:#1d4d2b;color:#fff;padding:24px 20px;margin:0 -16px 20px;border-radius:0 0 12px 12px}
 header a{color:#ffe9a8}
-nav a{margin-right:14px;color:#1d4d2b;font-weight:700}
 *,*::before,*::after{box-sizing:border-box}
 html,body{overflow-x:clip}
 img,video{max-width:100%;height:auto}
-a{overflow-wrap:anywhere}
-h1{font-size:clamp(1.6rem,6vw,2.2rem)}
-nav{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
-nav a{margin-right:0;color:#1d4d2b;font-weight:700;padding:10px 2px;min-height:44px;display:inline-flex;align-items:center}
+a{overflow-wrap:anywhere;color:#1d4d2b}
+h1,h2,h3{font-family:'Playfair Display',Georgia,'Times New Roman',serif;color:#1d4d2b}
+h1{font-size:clamp(1.9rem,6vw,2.6rem);line-height:1.1}
+header h1{color:#fff;margin:0 0 6px}
+header p{margin:0 0 8px}
+h2{color:#7a5a12;font-size:clamp(1.4rem,4.5vw,1.8rem);line-height:1.2;margin:28px 0 10px}
+h3{font-size:1.2rem;margin:18px 0 6px}
+nav{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;padding:6px 0 2px}
+nav a{margin-right:0;color:#1d4d2b;font-weight:700;padding:10px 2px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none}
+nav a[aria-current="page"]{color:#7a5a12;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:2px}
 input,select{max-width:100%}
 button{min-height:44px}
-.card{overflow-x:auto}
-table td:last-child{white-space:nowrap}
-footer{overflow-wrap:anywhere}
-@media (max-width:600px){body{padding:0 12px 32px}header{margin:0 -12px 16px;padding:16px 12px}button{width:100%}.stay button{width:100%}h2{font-size:1.25rem}}
-h1{color:#fff;margin:0 0 6px}h2{color:#7a5a12}h3{color:#1d4d2b}
 label{display:block;margin:12px 0 4px;font-weight:600}
 input,select{width:100%;padding:10px;font-size:16px;box-sizing:border-box}
 button{margin-top:16px;padding:12px 18px;font-size:16px;background:#7a5a12;color:#fff;border:0;cursor:pointer;border-radius:6px}
-.card{border:1px solid #ddd;border-radius:10px;padding:16px;margin-top:18px}
+.card{border:1px solid #e5dcc8;border-radius:10px;padding:16px;margin-top:18px;background:#fffdf8;overflow-x:auto}
 .warn{background:#fff8e1;border:1px solid #e6c87a;padding:12px;border-radius:8px}
 .note{background:#e8f5e9;border:1px solid #7a5a12;padding:10px;border-radius:8px}
-.stay{border:1px solid #ddd;border-radius:10px;padding:12px;margin-top:10px}
-table{width:100%;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid #eee}td:last-child{text-align:right}
-footer{margin-top:32px;border-top:1px solid #ddd;padding-top:16px;color:#555}
+.stay{border:1px solid #e5dcc8;border-radius:10px;padding:12px;margin-top:10px;background:#fffdf8}
+table{width:100%;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid #eee}td:last-child{text-align:right;white-space:nowrap}
+footer{margin-top:32px;border-top:1px solid #e5dcc8;padding-top:16px;color:#555;overflow-wrap:anywhere}
+footer h2{margin-top:8px}
 .badge{display:inline-block;background:#1d4d2b;color:#fff;padding:2px 10px;border-radius:20px;font-size:14px}
-.btn{display:inline-block;background:#1d4d2b;color:#fff!important;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700;margin:6px 8px 0 0;min-height:44px;line-height:1.2}.btn-gold{background:#7a5a12;color:#fff!important}
-
-.hero{position:relative;border-radius:12px;overflow:hidden;margin:0 -16px 20px;min-height:340px;background:#1d4d2b}
-.hero img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
-.hero .hero-text{position:relative;z-index:1;padding:48px 20px 40px;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,.55))}
-.hero h1{color:#fff;font-size:clamp(2rem,8vw,3rem);line-height:1.1;margin:0 0 10px}
+.btn{display:inline-block;background:#1d4d2b;color:#fff!important;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700;margin:6px 8px 0 0;min-height:44px;line-height:1.2}
+.btn-gold{background:#7a5a12;color:#fff!important}
+.hero{position:relative;border-radius:12px;overflow:hidden;margin:8px -16px 12px;min-height:440px;background:#1d4d2b}
+.hero img{width:100%;height:100%;object-fit:cover;object-position:center 72%;position:absolute;inset:0}
+.hero .hero-text{position:relative;z-index:1;padding:56px 24px 44px;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.38),rgba(0,0,0,.60))}
+.hero h1{color:#fff;font-size:clamp(2.2rem,8vw,3.4rem);line-height:1.05;margin:0 0 12px}
 .hero p{font-size:1.1rem;margin:0 0 18px;max-width:560px}
-.hero .btn{display:inline-block;background:#7a5a12;color:#fff;padding:12px 20px;border-radius:6px;font-weight:700;margin:4px 8px 4px 0;min-height:44px}
-.hero .btn.alt{background:#fff;color:#1d4d2b}
+.hero .btn{display:inline-block;background:#7a5a12;color:#fff;padding:12px 20px;border-radius:6px;font-weight:700;margin:4px 8px 4px 0;min-height:44px;text-decoration:none}
+.hero .btn.alt{background:#fff;color:#1d4d2b!important}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:16px}
-.dest-card{border:1px solid #ddd;border-radius:10px;overflow:hidden}
-.dest-card img{width:100%;height:180px;object-fit:cover;display:block}
-.dest-card .card-body{padding:12px}
-.dest-card h3{margin:0 0 4px;color:#1d4d2b}
+.dest-card{background:#fffdf8;border:1px solid #e5dcc8;border-radius:10px;overflow:hidden}
+.dest-card .card-body{padding:14px}
+.dest-card h3{margin:0 0 4px}
 .dest-card p{margin:0 0 10px}
-.dest-photo{width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:10px;display:block}
 .credit{font-size:.85rem;color:#555;margin-top:6px}
-.btn{display:inline-block;background:#7a5a12;color:#fff;padding:12px 20px;border-radius:6px;font-weight:700;margin:8px 8px 8px 0;min-height:44px}
-</style></head>
-<body><section class="hero"><img src="images/hero-elephant-herd.jpg" alt="Elephant herd walking towards the camera in East Africa"><div class="hero-text"><h1>Discover Africa. Experience the Extraordinary.</h1><p>Plan an East Africa safari with clear prices, verified guides and paperwork help.</p><a class="btn" href="places.html">Explore Destinations</a><a class="btn alt" href="calculator.html">Plan Your Safari</a></div></section><p class="credit">Photo: Suki Expeditions Africa</p>
+.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:#7a5a12;font-weight:700;margin:0 0 6px}
+header .eyebrow,.hero .eyebrow{color:#ffe9a8}
+.number{font-family:'Playfair Display',Georgia,'Times New Roman',serif;color:#7a5a12;font-weight:700;margin:0 0 4px}
+.lede{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:1.25rem;line-height:1.4;color:#1d4d2b;margin:0 0 10px}
+.plain-list{margin:8px 0;padding-left:22px}
+.plain-list li{margin:6px 0}
+.country-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:14px}
+@media (max-width:600px){
+  body{padding:0 12px 32px}
+  header{margin:0 -12px 16px;padding:20px 14px}
+  .hero{margin:8px -12px 12px;min-height:380px}
+  .hero-text{padding:40px 16px 32px}
+  button{width:100%}
+  .stay button{width:100%}
+  h2{font-size:1.3rem}
+  .btn{display:block;text-align:center;margin:8px 0 0}
+  .hero .btn{display:block;text-align:center;margin:8px 0 0}
+  nav{gap:2px 12px}
+}</style></head>
+<body><section class="hero"><img src="images/hero-elephant-herd.jpg" alt="Elephant herd walking towards the camera in East Africa"><div class="hero-text"><p class="eyebrow">Suki Safari Hub</p><h1>Discover Africa. Experience the Extraordinary.</h1><p>Plan an East Africa safari with clear prices, verified guides and paperwork help.</p><a class="btn" href="places.html">Explore Destinations</a><a class="btn alt" href="calculator.html">Plan Your Safari</a></div></section><p class="credit">Photo: Suki Expeditions Africa</p>
+<p class="note">Photographs are illustrative for now and will be replaced with Suki's own trip photos over time. Each photo carries its source below it.</p>
 
 <nav><a href="index.html">Home</a><a href="places.html">Destinations</a><a href="guides.html">Our Guides</a><a href="calculator.html">Plan Your Safari</a><a href="#contact">Contact Us</a></nav>
 <p class="note">The Bwindi gorilla permit is $800 per person for foreign non-residents.</p>
+<p class="eyebrow">Suki Safari Hub</p>
 <h2>What this site does</h2>
-<ul><li><strong>Calculator:</strong> build a cost estimate for a trip, with permits, park fees, stays, guide and vehicle, transport and a guide tips allowance.</li><li><strong>Places:</strong> all 43 famous parks, zoos and attractions in our catalogue, by country, with what each place is known for and its fee note.</li><li><strong>Guides:</strong> how we check guides, what the verified badge means, and how guides are added one at a time as their checks are completed.</li></ul>
+<ul class="plain-list"><li><strong>Calculator:</strong> build a cost estimate for a trip, with permits, park fees, stays, guide and vehicle, transport and a guide tips allowance.</li><li><strong>Places:</strong> all 43 famous parks, zoos and attractions in our catalogue, by country, with what each place is known for and its fee note.</li><li><strong>Guides:</strong> how we check guides, what the verified badge means, and how guides are added one at a time as their checks are completed.</li></ul>
 <p>Estimates are estimates, not quotes. Fees change, so recheck park, visa and permit fees on official portals before booking: KWS, TANAPA, NCAA, UWA, RDB and immigration.</p>
+<p class="eyebrow">Plan Your Safari</p>
 <h2 id="plan-your-safari">Plan your safari in 6 steps</h2>
 <div id="calculator"></div>
 <script src="calculator.js"></script>
+<p class="eyebrow">The Catalogue</p>
 <h2>Full catalogue on this site</h2>
 <p>43 famous national parks, zoos and tourist attractions across Uganda, Kenya, Tanzania and Rwanda. See the full list on the <a href="places.html">Places page</a>.</p>
-<h3>Uganda (15)</h3><ul>
-<li><strong>Bwindi Impenetrable National Park</strong> (National park) : Mountain gorilla trekking. Gorilla permit $800 per person for foreign non-residents, $700 for foreign residents, $600 low season April, May and November, checked 30 Oct 2026 against UWA tariff summaries, recheck UWA before quoting</li>
-<li><strong>Kibale National Park</strong> (National park) : Chimpanzee tracking. Fee varies by activity, check UWA</li>
-<li><strong>Queen Elizabeth National Park</strong> (National park) : Tree climbing lions, Kazinga Channel, Ishasha. Park fee varies, check UWA</li>
-<li><strong>Murchison Falls National Park</strong> (National park) : Nile Falls, big game, boat safaris. Park fee varies, check UWA</li>
-<li><strong>Kidepo Valley National Park</strong> (National park) : Remote savanna, ostriches, Karamoja culture. Park fee varies, check UWA</li>
-<li><strong>Mgahinga Gorilla National Park</strong> (National park) : Gorillas and golden monkeys, Virunga volcanoes. Gorilla permit $800 per person for foreign non-residents, $700 for foreign residents, $600 low season April, May and November, checked 30 Oct 2026 against UWA tariff summaries, recheck UWA before quoting</li>
-<li><strong>Lake Mburo National Park</strong> (National park) : Zebras, walking safaris, close to Kampala. Park fee varies, check UWA</li>
-<li><strong>Rwenzori Mountains National Park</strong> (National park) : Mountains of the Moon hiking. Park fee varies, check UWA</li>
-<li><strong>Semuliki National Park</strong> (National park) : Hot springs, lowland forest birds. Park fee varies, check UWA</li>
-<li><strong>Mount Elgon National Park</strong> (National park) : Waterfalls, caves, hiking. Park fee varies, check UWA</li>
-<li><strong>Lake Bunyonyi</strong> (Tourist attraction) : Island lake, canoeing, relaxation after trekking. No national park fee, local activity prices vary</li>
-<li><strong>Jinja and the Source of the Nile</strong> (Tourist attraction) : White water rafting, Nile boat trips. Activity prices vary</li>
-<li><strong>Sipi Falls</strong> (Tourist attraction) : Waterfalls and coffee tours near Mount Elgon. Local guide fees vary</li>
-<li><strong>Uganda Wildlife Conservation Education Centre, Entebbe Zoo</strong> (Zoo) : Rescued wildlife, education, Lake Victoria shore. Entry fee varies, check centre</li>
-<li><strong>Kampala City and Kasubi Tombs</strong> (Tourist attraction) : City culture, markets, heritage. Site entry fees vary</li>
-</ul>
-<h3>Kenya (13)</h3><ul>
-<li><strong>Maasai Mara National Reserve</strong> (National park) : Great Migration crossings, big cats. Park fee varies by season, check KWS</li>
-<li><strong>Amboseli National Park</strong> (National park) : Elephants with Kilimanjaro views. Park fee varies, check KWS</li>
-<li><strong>Tsavo East National Park</strong> (National park) : Red elephants, Aruba Dam, Lugard Falls. Park fee varies, check KWS</li>
-<li><strong>Tsavo West National Park</strong> (National park) : Mzima Springs, rhino sanctuary. Park fee varies, check KWS</li>
-<li><strong>Lake Nakuru National Park</strong> (National park) : Flamingos, rhinos, lake views. Park fee varies, check KWS</li>
-<li><strong>Samburu National Reserve</strong> (National park) : Special Five, Ewaso Nyiro river. Park fee varies, check KWS</li>
-<li><strong>Nairobi National Park</strong> (National park) : Wildlife against a city skyline. Park fee varies, check KWS</li>
-<li><strong>Hell&#x27;s Gate National Park</strong> (National park) : Cycling, gorge walking, geothermal landscape. Park fee varies, check KWS</li>
-<li><strong>Mount Kenya National Park</strong> (National park) : Mountain hiking, alpine lakes. Park fee varies, check KWS</li>
-<li><strong>Diani Beach</strong> (Tourist attraction) : White sand beach, diving, water sports. No park fee, hotel and activity prices vary</li>
-<li><strong>Lamu Old Town</strong> (Tourist attraction) : Swahili heritage, dhow trips. Site and activity prices vary</li>
-<li><strong>Nairobi Animal Orphanage and Giraffe Centre</strong> (Zoo) : Giraffe feeding, rescued animals, education. Entry fee varies, check centre</li>
-<li><strong>David Sheldrick Wildlife Trust, Nairobi</strong> (Zoo) : Orphaned elephant care and adoption. Entry fee varies, check trust</li>
-</ul>
-<h3>Tanzania (10)</h3><ul>
-<li><strong>Serengeti National Park</strong> (National park) : Great Migration, endless plains, big cats. Reported $70 plus VAT to $82.60 all in, sources conflict, check TANAPA</li>
-<li><strong>Ngorongoro Crater and Conservation Area</strong> (National park) : Crater wildlife, Maasai culture. Park and crater fees vary, check NCAA</li>
-<li><strong>Tarangire National Park</strong> (National park) : Baobabs, elephant herds. Park fee varies, check TANAPA</li>
-<li><strong>Lake Manyara National Park</strong> (National park) : Tree climbing lions, lake flamingos. Park fee varies, check TANAPA</li>
-<li><strong>Kilimanjaro National Park</strong> (National park) : Mount Kilimanjaro climbing routes. Climbing and park fees vary, check TANAPA</li>
-<li><strong>Nyerere National Park, formerly Selous</strong> (National park) : Boat safaris, wild dogs, remote wilderness. Park fee varies, check TANAPA</li>
-<li><strong>Ruaha National Park</strong> (National park) : Large elephant herds, baobabs, predators. Park fee varies, check TANAPA</li>
-<li><strong>Arusha National Park</strong> (National park) : Mount Meru, Momella Lakes, giraffes. Park fee varies, check TANAPA</li>
-<li><strong>Zanzibar Beaches</strong> (Tourist attraction) : Nungwi and Paje beaches, spice tours. No park fee, plus Zanzibar insurance requirements, check official guidance</li>
-<li><strong>Stone Town, Zanzibar</strong> (Tourist attraction) : Swahili heritage, markets, historic houses. Site entry fees vary</li>
-</ul>
-<h3>Rwanda (5)</h3><ul>
-<li><strong>Volcanoes National Park</strong> (National park) : Mountain gorilla trekking. Gorilla permit $1,500 per person, October 2026 research figure, recheck RDB</li>
-<li><strong>Akagera National Park</strong> (National park) : Big Five, Lake Ihema boat trips. Park fee varies, check RDB</li>
-<li><strong>Nyungwe Forest National Park</strong> (National park) : Chimpanzees, canopy walk, colobus monkeys. Park and activity fees vary, check RDB</li>
-<li><strong>Lake Kivu</strong> (Tourist attraction) : Lake beaches, boat trips, Gisenyi and Kibuye. Activity prices vary</li>
-<li><strong>Kigali Genocide Memorial</strong> (Tourist attraction) : Memorial, history and education. Entry guidance varies, check memorial</li>
-</ul>
+<h2>Uganda (15)</h2>
+<div class="cards">
+<article class="dest-card"><div class="card-body"><p class="number">No. 01</p><p class="eyebrow">Uganda</p><h3>Bwindi Impenetrable National Park</h3><p>National park · Mountain gorilla trekking.</p><p><strong>Fees:</strong> Gorilla permit $800 per person for foreign non-residents, $700 for foreign residents, $600 low season April, May and November, checked 30 Oct 2026 against UWA tariff summaries, recheck UWA before quoting</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 02</p><p class="eyebrow">Uganda</p><h3>Kibale National Park</h3><p>National park · Chimpanzee tracking.</p><p><strong>Fees:</strong> Fee varies by activity, check UWA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 03</p><p class="eyebrow">Uganda</p><h3>Queen Elizabeth National Park</h3><p>National park · Tree climbing lions, Kazinga Channel, Ishasha.</p><p><strong>Fees:</strong> Park fee varies, check UWA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 04</p><p class="eyebrow">Uganda</p><h3>Murchison Falls National Park</h3><p>National park · Nile Falls, big game, boat safaris.</p><p><strong>Fees:</strong> Park fee varies, check UWA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 05</p><p class="eyebrow">Uganda</p><h3>Kidepo Valley National Park</h3><p>National park · Remote savanna, ostriches, Karamoja culture.</p><p><strong>Fees:</strong> Park fee varies, check UWA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 06</p><p class="eyebrow">Uganda</p><h3>Mgahinga Gorilla National Park</h3><p>National park · Gorillas and golden monkeys, Virunga volcanoes.</p><p><strong>Fees:</strong> Gorilla permit $800 per person for foreign non-residents, $700 for foreign residents, $600 low season April, May and November, checked 30 Oct 2026 against UWA tariff summaries, recheck UWA before quoting</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 07</p><p class="eyebrow">Uganda</p><h3>Lake Mburo National Park</h3><p>National park · Zebras, walking safaris, close to Kampala.</p><p><strong>Fees:</strong> Park fee varies, check UWA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 08</p><p class="eyebrow">Uganda</p><h3>Rwenzori Mountains National Park</h3><p>National park · Mountains of the Moon hiking.</p><p><strong>Fees:</strong> Park fee varies, check UWA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 09</p><p class="eyebrow">Uganda</p><h3>Semuliki National Park</h3><p>National park · Hot springs, lowland forest birds.</p><p><strong>Fees:</strong> Park fee varies, check UWA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 10</p><p class="eyebrow">Uganda</p><h3>Mount Elgon National Park</h3><p>National park · Waterfalls, caves, hiking.</p><p><strong>Fees:</strong> Park fee varies, check UWA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 11</p><p class="eyebrow">Uganda</p><h3>Lake Bunyonyi</h3><p>Tourist attraction · Island lake, canoeing, relaxation after trekking.</p><p><strong>Fees:</strong> No national park fee, local activity prices vary</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 12</p><p class="eyebrow">Uganda</p><h3>Jinja and the Source of the Nile</h3><p>Tourist attraction · White water rafting, Nile boat trips.</p><p><strong>Fees:</strong> Activity prices vary</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 13</p><p class="eyebrow">Uganda</p><h3>Sipi Falls</h3><p>Tourist attraction · Waterfalls and coffee tours near Mount Elgon.</p><p><strong>Fees:</strong> Local guide fees vary</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 14</p><p class="eyebrow">Uganda</p><h3>Uganda Wildlife Conservation Education Centre, Entebbe Zoo</h3><p>Zoo · Rescued wildlife, education, Lake Victoria shore.</p><p><strong>Fees:</strong> Entry fee varies, check centre</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 15</p><p class="eyebrow">Uganda</p><h3>Kampala City and Kasubi Tombs</h3><p>Tourist attraction · City culture, markets, heritage.</p><p><strong>Fees:</strong> Site entry fees vary</p></div></article>
+</div>
+<h2>Kenya (13)</h2>
+<div class="cards">
+<article class="dest-card"><div class="card-body"><p class="number">No. 16</p><p class="eyebrow">Kenya</p><h3>Maasai Mara National Reserve</h3><p>National park · Great Migration crossings, big cats.</p><p><strong>Fees:</strong> Park fee varies by season, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 17</p><p class="eyebrow">Kenya</p><h3>Amboseli National Park</h3><p>National park · Elephants with Kilimanjaro views.</p><p><strong>Fees:</strong> Park fee varies, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 18</p><p class="eyebrow">Kenya</p><h3>Tsavo East National Park</h3><p>National park · Red elephants, Aruba Dam, Lugard Falls.</p><p><strong>Fees:</strong> Park fee varies, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 19</p><p class="eyebrow">Kenya</p><h3>Tsavo West National Park</h3><p>National park · Mzima Springs, rhino sanctuary.</p><p><strong>Fees:</strong> Park fee varies, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 20</p><p class="eyebrow">Kenya</p><h3>Lake Nakuru National Park</h3><p>National park · Flamingos, rhinos, lake views.</p><p><strong>Fees:</strong> Park fee varies, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 21</p><p class="eyebrow">Kenya</p><h3>Samburu National Reserve</h3><p>National park · Special Five, Ewaso Nyiro river.</p><p><strong>Fees:</strong> Park fee varies, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 22</p><p class="eyebrow">Kenya</p><h3>Nairobi National Park</h3><p>National park · Wildlife against a city skyline.</p><p><strong>Fees:</strong> Park fee varies, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 23</p><p class="eyebrow">Kenya</p><h3>Hell's Gate National Park</h3><p>National park · Cycling, gorge walking, geothermal landscape.</p><p><strong>Fees:</strong> Park fee varies, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 24</p><p class="eyebrow">Kenya</p><h3>Mount Kenya National Park</h3><p>National park · Mountain hiking, alpine lakes.</p><p><strong>Fees:</strong> Park fee varies, check KWS</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 25</p><p class="eyebrow">Kenya</p><h3>Diani Beach</h3><p>Tourist attraction · White sand beach, diving, water sports.</p><p><strong>Fees:</strong> No park fee, hotel and activity prices vary</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 26</p><p class="eyebrow">Kenya</p><h3>Lamu Old Town</h3><p>Tourist attraction · Swahili heritage, dhow trips.</p><p><strong>Fees:</strong> Site and activity prices vary</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 27</p><p class="eyebrow">Kenya</p><h3>Nairobi Animal Orphanage and Giraffe Centre</h3><p>Zoo · Giraffe feeding, rescued animals, education.</p><p><strong>Fees:</strong> Entry fee varies, check centre</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 28</p><p class="eyebrow">Kenya</p><h3>David Sheldrick Wildlife Trust, Nairobi</h3><p>Zoo · Orphaned elephant care and adoption.</p><p><strong>Fees:</strong> Entry fee varies, check trust</p></div></article>
+</div>
+<h2>Tanzania (10)</h2>
+<div class="cards">
+<article class="dest-card"><div class="card-body"><p class="number">No. 29</p><p class="eyebrow">Tanzania</p><h3>Serengeti National Park</h3><p>National park · Great Migration, endless plains, big cats.</p><p><strong>Fees:</strong> Reported $70 plus VAT to $82.60 all in, sources conflict, check TANAPA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 30</p><p class="eyebrow">Tanzania</p><h3>Ngorongoro Crater and Conservation Area</h3><p>National park · Crater wildlife, Maasai culture.</p><p><strong>Fees:</strong> Park and crater fees vary, check NCAA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 31</p><p class="eyebrow">Tanzania</p><h3>Tarangire National Park</h3><p>National park · Baobabs, elephant herds.</p><p><strong>Fees:</strong> Park fee varies, check TANAPA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 32</p><p class="eyebrow">Tanzania</p><h3>Lake Manyara National Park</h3><p>National park · Tree climbing lions, lake flamingos.</p><p><strong>Fees:</strong> Park fee varies, check TANAPA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 33</p><p class="eyebrow">Tanzania</p><h3>Kilimanjaro National Park</h3><p>National park · Mount Kilimanjaro climbing routes.</p><p><strong>Fees:</strong> Climbing and park fees vary, check TANAPA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 34</p><p class="eyebrow">Tanzania</p><h3>Nyerere National Park, formerly Selous</h3><p>National park · Boat safaris, wild dogs, remote wilderness.</p><p><strong>Fees:</strong> Park fee varies, check TANAPA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 35</p><p class="eyebrow">Tanzania</p><h3>Ruaha National Park</h3><p>National park · Large elephant herds, baobabs, predators.</p><p><strong>Fees:</strong> Park fee varies, check TANAPA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 36</p><p class="eyebrow">Tanzania</p><h3>Arusha National Park</h3><p>National park · Mount Meru, Momella Lakes, giraffes.</p><p><strong>Fees:</strong> Park fee varies, check TANAPA</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 37</p><p class="eyebrow">Tanzania</p><h3>Zanzibar Beaches</h3><p>Tourist attraction · Nungwi and Paje beaches, spice tours.</p><p><strong>Fees:</strong> No park fee, plus Zanzibar insurance requirements, check official guidance</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 38</p><p class="eyebrow">Tanzania</p><h3>Stone Town, Zanzibar</h3><p>Tourist attraction · Swahili heritage, markets, historic houses.</p><p><strong>Fees:</strong> Site entry fees vary</p></div></article>
+</div>
+<h2>Rwanda (5)</h2>
+<div class="cards">
+<article class="dest-card"><div class="card-body"><p class="number">No. 39</p><p class="eyebrow">Rwanda</p><h3>Volcanoes National Park</h3><p>National park · Mountain gorilla trekking.</p><p><strong>Fees:</strong> Gorilla permit $1,500 per person, October 2026 research figure, recheck RDB</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 40</p><p class="eyebrow">Rwanda</p><h3>Akagera National Park</h3><p>National park · Big Five, Lake Ihema boat trips.</p><p><strong>Fees:</strong> Park fee varies, check RDB</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 41</p><p class="eyebrow">Rwanda</p><h3>Nyungwe Forest National Park</h3><p>National park · Chimpanzees, canopy walk, colobus monkeys.</p><p><strong>Fees:</strong> Park and activity fees vary, check RDB</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 42</p><p class="eyebrow">Rwanda</p><h3>Lake Kivu</h3><p>Tourist attraction · Lake beaches, boat trips, Gisenyi and Kibuye.</p><p><strong>Fees:</strong> Activity prices vary</p></div></article>
+<article class="dest-card"><div class="card-body"><p class="number">No. 43</p><p class="eyebrow">Rwanda</p><h3>Kigali Genocide Memorial</h3><p>Tourist attraction · Memorial, history and education.</p><p><strong>Fees:</strong> Entry guidance varies, check memorial</p></div></article>
+</div>
 
 
-<footer id="contact"><h2>Contact Us</h2><p>Suki Safari Hub, by Suki Expeditions Africa, Kampala, Uganda.</p><p>Email: info@sukiexpeditionsafrica.com<br>Phone and WhatsApp: +256 773036247<br>Main website: sukiexpeditionsafrica.com</p><p>Last updated 8 November 2026. Estimates are estimates, not confirmed quotes. Fees last checked October 2026; recheck official park, visa and permit fees before booking.</p></footer>
+<footer id="contact"><h2>Contact Us</h2><p>Suki Safari Hub, by Suki Expeditions Africa, Kampala, Uganda.</p><p>Email: info@sukiexpeditionsafrica.com<br>Phone and WhatsApp: +256 773036247<br>Main website: sukiexpeditionsafrica.com</p><p>Last updated 10 November 2026. Estimates are estimates, not confirmed quotes. Fees last checked October 2026; recheck official park, visa and permit fees before booking.</p></footer>
 </body></html>
