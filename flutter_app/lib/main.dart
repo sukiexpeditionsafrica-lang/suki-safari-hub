@@ -349,12 +349,12 @@ class GuidesPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Verified guides and drivers',
+            'Verified operators and named guides',
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 12),
           Text(
-            'SAMPLE STRUCTURE ONLY. No real guides are listed here, no profile is verified, and no guide can be booked or charged from this shell. A verified badge will only be shown when a licence is checked against a registry. Suki\'s own guides will use exactly the same rules.',
+            'SAMPLE STRUCTURE ONLY. No real operators are listed here, no operator is verified, and no operator can be booked or charged from this shell. A verified badge will only be shown when a licence is checked against a registry. Suki\'s own listing will use exactly the same rules.',
           ),
           SizedBox(height: 12),
           Text(

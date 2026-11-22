@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Our Operators, Suki Safari Hub</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><style>body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:0 16px 40px;color:#2b2620;line-height:1.6;background:#faf6ee}
+header{background:#1d4d2b;color:#fff;padding:24px 20px;margin:0 -16px 20px;border-radius:0 0 12px 12px}
+header a{color:#ffe9a8}
+*,*::before,*::after{box-sizing:border-box}
+html,body{overflow-x:clip}
+img,video{max-width:100%;height:auto}
+a{overflow-wrap:anywhere;color:#1d4d2b}
+h1,h2,h3{font-family:'Playfair Display',Georgia,'Times New Roman',serif;color:#1d4d2b}
+h1{font-size:clamp(1.9rem,6vw,2.6rem);line-height:1.1}
+header h1{color:#fff;margin:0 0 6px}
+header p{margin:0 0 8px}
+h2{color:#7a5a12;font-size:clamp(1.4rem,4.5vw,1.8rem);line-height:1.2;margin:28px 0 10px}
+h3{font-size:1.2rem;margin:18px 0 6px}
+nav{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;padding:6px 0 2px}
+nav a{margin-right:0;color:#1d4d2b;font-weight:700;padding:10px 2px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none}
+nav a[aria-current="page"]{color:#7a5a12;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:2px}
+input,select{max-width:100%}
+button{min-height:44px}
+label{display:block;margin:12px 0 4px;font-weight:600}
+input,select{width:100%;padding:10px;font-size:16px;box-sizing:border-box}
+button{margin-top:16px;padding:12px 18px;font-size:16px;background:#7a5a12;color:#fff;border:0;cursor:pointer;border-radius:6px}
+.card{border:1px solid #e5dcc8;border-radius:10px;padding:16px;margin-top:18px;background:#fffdf8;overflow-x:auto}
+.warn{background:#fff8e1;border:1px solid #e6c87a;padding:12px;border-radius:8px}
+.note{background:#e8f5e9;border:1px solid #7a5a12;padding:10px;border-radius:8px}
+.stay{border:1px solid #e5dcc8;border-radius:10px;padding:12px;margin-top:10px;background:#fffdf8}
+table{width:100%;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid #eee}td:last-child{text-align:right;white-space:nowrap}
+footer{margin-top:32px;border-top:1px solid #e5dcc8;padding-top:16px;color:#555;overflow-wrap:anywhere}
+footer h2{margin-top:8px}
+.badge{display:inline-block;background:#1d4d2b;color:#fff;padding:2px 10px;border-radius:20px;font-size:14px}
+.badge-pending{display:inline-block;background:#fff8e1;color:#7a5a12;border:1px solid #e6c87a;padding:2px 10px;border-radius:20px;font-size:14px}
+.btn{display:inline-block;background:#1d4d2b;color:#fff!important;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:700;margin:6px 8px 0 0;min-height:44px;line-height:1.2}
+.btn-gold{background:#7a5a12;color:#fff!important}
+.hero{position:relative;border-radius:12px;overflow:hidden;margin:8px -16px 12px;min-height:440px;background:#1d4d2b}
+.hero img{width:100%;height:100%;object-fit:cover;object-position:center 72%;position:absolute;inset:0}
+.hero .hero-text{position:relative;z-index:1;padding:56px 24px 44px;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.38),rgba(0,0,0,.60))}
+.hero h1{color:#fff;font-size:clamp(2.2rem,8vw,3.4rem);line-height:1.05;margin:0 0 12px}
+.hero p{font-size:1.1rem;margin:0 0 18px;max-width:560px}
+.hero .btn{display:inline-block;background:#7a5a12;color:#fff;padding:12px 20px;border-radius:6px;font-weight:700;margin:4px 8px 4px 0;min-height:44px;text-decoration:none}
+.hero .btn.alt{background:#fff;color:#1d4d2b!important}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:16px}
+.dest-card{background:#fffdf8;border:1px solid #e5dcc8;border-radius:10px;overflow:hidden}
+.dest-card .card-body{padding:14px}
+.dest-card h3{margin:0 0 4px}
+.dest-card p{margin:0 0 10px}
+.credit{font-size:.85rem;color:#555;margin-top:6px}
+.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:#7a5a12;font-weight:700;margin:0 0 6px}
+header .eyebrow,.hero .eyebrow{color:#ffe9a8}
+.number{font-family:'Playfair Display',Georgia,'Times New Roman',serif;color:#7a5a12;font-weight:700;margin:0 0 4px}
+.lede{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:1.25rem;line-height:1.4;color:#1d4d2b;margin:0 0 10px}
+.plain-list{margin:8px 0;padding-left:22px}
+.plain-list li{margin:6px 0}
+.country-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:14px}
+.filter-btn{border:1px solid #e5dcc8;background:#fffdf8;color:#1d4d2b;padding:10px 16px;border-radius:20px;font-weight:700;font-size:15px;cursor:pointer;margin:6px 6px 0 0;font-family:inherit;min-height:44px}
+.filter-btn.active{background:#1d4d2b;color:#fff;border-color:#1d4d2b}
+.country-card[hidden]{display:none}
+@media (max-width:600px){
+  body{padding:0 12px 32px}
+  header{margin:0 -12px 16px;padding:20px 14px}
+  .hero{margin:8px -12px 12px;min-height:380px}
+  .hero-text{padding:40px 16px 32px}
+  button{width:100%}
+  .stay button{width:100%}
+  h2{font-size:1.3rem}
+  .btn{display:block;text-align:center;margin:8px 0 0}
+  .hero .btn{display:block;text-align:center;margin:8px 0 0}
+  nav{gap:2px 12px}
+}</style></head><body>
+<header><p class="eyebrow">Suki Safari Hub · Our Operators</p><h1>Our Operators</h1><p class="lede" style="color:#fff">Book with a company you can hold to account.</p><p>Every operator that earns a badge on this page is licence checked first, for the country it works in. No licence check, no badge. No exceptions, not even for us.</p></header>
+<nav><a href="index.html">Home</a><a href="places.html">Destinations</a><a href="operators.html" aria-current="page">Our Operators</a><a href="calculator.html">Plan Your Safari</a><a href="#contact">Contact Us</a></nav>
+<p><a class="btn" href="calculator.html">Plan My Safari</a></p>
+<p class="note">Operators are added one at a time as their checks are completed. No operator is listed yet. This page explains the system so travellers know what the badge will mean when operators are added, with approval by Suki Expeditions Africa, one at a time, and the operator's consent.</p>
+<p class="eyebrow">Why the change</p>
+<h2>Companies first. Guides second.</h2>
+<p>Travellers do not buy a safari from a guide. They buy it from an operator, the company that holds the licence, the vehicle, the lodge relationships and the permit access. So that is who the Hub now lists first.</p>
+<div class="country-cards">
+<div class="card" style="margin-top:0"><h3>Easier to hold accountable</h3><p>A company has a registered address, a licence that can be suspended, insurance and a bank account. An individual can change a phone number and disappear.</p></div>
+<div class="card" style="margin-top:0"><h3>How safaris are actually bought</h3><p>The operator plans the trip, secures the gorilla and chimp permits, provides the vehicle and assigns the guide. Listing the operator matches the real booking.</p></div>
+<div class="card" style="margin-top:0"><h3>Operators are the supply</h3><p>An app that looks like it cuts operators out will be fought or ignored. An app that brings them verified demand, trust and safer payment gets adopted.</p></div>
+</div>
+<div class="country-cards">
+<div class="card"><p class="eyebrow">Before</p><h3>Guides page</h3><ul class="plain-list"><li>Independent guides listed on their own</li><li>Hard to verify in Uganda, no individual guide portal</li><li>No company standing behind the booking</li><li>Appeared to cut operators out of the chain</li></ul></div>
+<div class="card"><p class="eyebrow">Now, this page</p><h3>Verified Operators page</h3><ul class="plain-list"><li>Licensed tour and travel companies listed first</li><li>Licence checked per country, recorded and dated</li><li>Company is responsible for the trip, and for its guide</li><li>Guides still appear, named under their operator</li></ul></div>
+</div>
+<p class="eyebrow">The badge rule</p>
+<h2>Only one level earns the badge.</h2>
+<p>Association membership alone never earns it. A licence for a different country never earns it for this country. An expired or suspended licence loses it.</p>
+<div class="country-cards">
+<div class="card" style="margin-top:0"><p><span class="badge-pending">No badge</span></p><h3>Self declared</h3><p>The operator says it is licensed. No check has been done yet, so it is listed without a badge, or not shown as verified in any way.</p></div>
+<div class="card" style="margin-top:0"><p><span class="badge-pending">Still no badge</span></p><h3>Peer reviewed</h3><p>Another operator or a traveller review has vouched for it. Helpful context, but still no licence check, so still no badge.</p></div>
+<div class="card" style="margin-top:0"><p><span class="badge">Verified</span></p><h3>Registry verified</h3><p>The country licence check below has been done, recorded and is still in date. This is the only level that shows the verified badge.</p></div>
+</div>
+<p>If a document expires, or a suspension is found, the badge comes off until a fresh check is recorded.</p>
+<p class="eyebrow">Checked country by country</p>
+<h2>How we check, by country</h2>
+<p>An operator working in two countries needs two checks. Tap a country to see exactly what is checked there.</p>
+<div><button class="filter-btn active" data-filter="all" type="button">All countries</button><button class="filter-btn" data-filter="uganda" type="button">Uganda</button><button class="filter-btn" data-filter="kenya" type="button">Kenya</button><button class="filter-btn" data-filter="tanzania" type="button">Tanzania</button><button class="filter-btn" data-filter="rwanda" type="button">Rwanda</button></div>
+<div class="country-cards" id="countryGrid">
+<div class="card country-card" data-country="uganda"><p class="eyebrow">Uganda Tourism Board · UTB</p><h3>Uganda</h3><p><strong>Licence checked:</strong> UTB Tourism Operating Licence, currently valid, 1 year.</p><p><strong>Also recorded:</strong> URSB Certificate of Incorporation, current year URA e-Acknowledgement Receipt, current year Annual Return with all shareholders named.</p><p><strong>Recheck:</strong> at licence expiry each year, plus suspension position at listing time.</p><p class="warn"><strong>Does not count alone:</strong> AUTO or USAGA membership, company registration without the UTB licence.</p></div>
+<div class="card country-card" data-country="kenya"><p class="eyebrow">Tourism Regulatory Authority · TRA</p><h3>Kenya</h3><p><strong>Licence checked:</strong> TRA licence for the company, checked on the public portal at verify.tra.go.ke by company file number.</p><p><strong>Also recorded:</strong> portal result, licence currency and check date.</p><p><strong>Recheck:</strong> when the licence is due to expire, and before re-listing after a long gap.</p><p class="warn"><strong>Does not count alone:</strong> KATO membership. KPSGA levels belong to individual guides, not the company.</p></div>
+<div class="card country-card" data-country="tanzania"><p class="eyebrow">TALA · Mainland Tanzania</p><h3>Tanzania</h3><p><strong>Licence checked:</strong> TALA licence, number and year. It expires every 31 December.</p><p><strong>Also recorded:</strong> checked against the TATO online member directory. A TATO listing alone is not a licence check.</p><p><strong>Recheck:</strong> every year, before 31 December. Zanzibar is not covered by this mainland check.</p><p class="warn"><strong>Does not count alone:</strong> TATO membership, or a missing TATO listing treated as a verdict.</p></div>
+<div class="card country-card" data-country="rwanda"><p class="eyebrow">Rwanda Development Board · RDB</p><h3>Rwanda</h3><p><strong>Licence checked:</strong> RDB Tourism Operating Licence (TOL) for the company, certificate sighted, as there is no public portal.</p><p><strong>Also recorded:</strong> TOL certificate, check date, and suspension or revocation position.</p><p><strong>Recheck:</strong> suspension or revocation position at listing time.</p><p class="warn"><strong>Does not count alone:</strong> RTTA membership, park registration, or a licence from another country.</p></div>
+</div>
+<div class="country-cards">
+<div class="card"><h3>What travellers see</h3><ul class="plain-list"><li>The verified badge, country and registry name</li><li>The date the licence check was done</li><li>Specialisms, regions, languages, fleet and team size</li><li>Named, verified guides assigned by the operator</li><li>Reviews tied to a real trip date</li></ul></div>
+<div class="card"><h3>What travellers never see</h3><ul class="plain-list"><li>Licence or registration numbers, they are check inputs, not display fields</li><li>A badge for membership alone, in any country</li><li>A guide listed without a verified operator behind them</li><li>An expired licence presented as current</li></ul></div>
+</div>
+<p class="eyebrow">The first listing</p>
+<h2>Suki goes first, on exactly the same terms.</h2>
+<p>Suki Expeditions Africa owns the Hub, and that is disclosed on its listing. It gets no shortcut: same check, same badge rule, same ranking as every other operator. This is honestly where that listing stands today.</p>
+<div class="card"><p><span class="badge-pending">Verification pending</span></p><h3>Suki Expeditions Africa</h3><p>Kungu Road, Kampala, Uganda</p><table><tr><td>Registry</td><td>Uganda Tourism Board (UTB)</td></tr><tr><td>Badge</td><td>No badge yet</td></tr><tr><td>Known for</td><td>Gorilla, chimp and wildlife safaris</td></tr><tr><td>Hub relationship</td><td>Owner of Suki Safari Hub, disclosed</td></tr></table><p><strong>Why no badge yet?</strong> Suki cannot be shown as verified until its own documents are checked: a currently valid UTB licence, URSB certificate, current year URA receipt and current year annual return. Until that check is recorded, this listing shows as pending, the same rule that will apply to everyone else.</p></div>
+<h3>How every listing will look</h3>
+<ul class="plain-list"><li>Badge, registry and check date at the top, once registry verified</li><li>Country of operation, one verified check per country</li><li>Profile facts: years operating, fleet, team size, languages, specialisms and regions</li><li>Named guides underneath, each verified under Tier 2</li><li>Never shown: licence numbers, or a badge earned by membership alone</li></ul>
+<p class="note"><strong>No verified operators are listed yet.</strong> The verification system is defined and the checks are ready, but no operator, including Suki, has been checked and added. Listings appear here only after a licence check passes and is in date.</p>
+<p class="eyebrow">Tier 2, still there, in the right place</p>
+<h2>The guide you travel with is named by the operator.</h2>
+<p>Guides have not been removed. They have been put where they belong in a real safari: underneath the company that employs and stands behind them.</p>
+<ul class="plain-list"><li><strong>Named, not anonymous:</strong> the operator names the guides it assigns</li><li><strong>Verified the same way as before:</strong> the country guide checks from the original system still apply, unchanged</li><li><strong>Operator responsible:</strong> if the guide is shown, the operator answers for them</li><li><strong>Hidden if the operator loses its badge:</strong> an unverified operator's guides are hidden too, though their records stay intact</li></ul>
+<p class="eyebrow">For operators</p>
+<h2>How an operator gets listed.</h2>
+<p>One at a time, by approval. There is no self-service verified badge.</p>
+<ol class="plain-list"><li>Sula approves the operator, one at a time.</li><li>The operator agrees to be checked and listed, and supplies its documents.</li><li>The licence check for its country is done and every field is recorded.</li><li>Only a passing, in-date check sets the status to registry verified.</li><li>The operator is added, showing badge, country, registry and check date.</li><li>The operator names its guides; each gets the Tier 2 check.</li><li>Checks repeat at expiry. A suspension removes the badge until a fresh check passes.</li><li>No money held yet. No payments, escrow or onboarding is live yet. No money is held by Suki.</li></ol>
+<p class="eyebrow">Questions</p>
+<h2>Verified operators, explained.</h2>
+<h3>What does verified operator mean on Suki Safari Hub?</h3><p>It means the operator's tourism operating licence for that country has been checked against the official registry or documents, recorded with a date, and is still in date. In Uganda that is the UTB licence, in Kenya the TRA licence, in mainland Tanzania the TALA licence, and in Rwanda the RDB licence.</p>
+<h3>Does association membership make an operator verified?</h3><p>No. Membership of KATO, AUTO, TATO, RTTA or USAGA is shown as a separate label only. Membership alone never earns the verified badge in any country.</p>
+<h3>Can I still see who my guide will be?</h3><p>Yes. Each verified operator names the guides it assigns. Those guides are checked under Tier 2 and shown under the operator, which is responsible for them during your safari.</p>
+<h3>Why is Suki Expeditions Africa not verified on its own Hub?</h3><p>Because the same rule applies to Suki as to everyone else. Suki's UTB licence and supporting documents must be checked and recorded first. Until then its listing honestly shows as verification pending, with no badge.</p>
+<h3>What happens if an operator's licence expires or is suspended?</h3><p>The badge comes off, the status returns to self declared, and its named guides are hidden until a fresh check is recorded. The operator record is kept, with the reason and date noted, it is not deleted.</p>
+<footer id="contact"><h2>Contact Us</h2><p>Suki Safari Hub, by Suki Expeditions Africa, Kampala, Uganda.</p><p>Email: info@sukiexpeditionsafrica.com<br>Phone and WhatsApp: +256 773036247<br>Main website: sukiexpeditionsafrica.com</p><p>Last updated 23 November 2026. Estimates are estimates, not confirmed quotes. Fees last checked October 2026; recheck official park, visa and permit fees before booking.</p></footer>
+<script>(function(){var btns=document.querySelectorAll('.filter-btn');var cards=document.querySelectorAll('.country-card');btns.forEach(function(b){b.addEventListener('click',function(){btns.forEach(function(x){x.classList.remove('active')});b.classList.add('active');var f=b.getAttribute('data-filter');cards.forEach(function(c){c.hidden=!(f==='all'||c.getAttribute('data-country')===f);});});});})();</script>
+</body></html>
